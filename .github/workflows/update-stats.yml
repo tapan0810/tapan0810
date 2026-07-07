@@ -1,54 +1,81 @@
 name: Update Profile Stats
 
-# Regenerates the GitHub stats, streak, and activity graph images
-# and commits them into /assets so the README loads static files
-# instead of depending on the live (rate-limited) public services.
-
 on:
   schedule:
-    - cron: "0 0 * * *"   # once a day, midnight UTC
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   update-stats:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Create assets folder
         run: mkdir -p assets
 
-      - name: Fetch GitHub stats card
+      - name: Download cards
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" \
-            -o assets/github-stats.svg
 
-      - name: Fetch top languages card
-        run: |
-          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true" \
-            -o assets/top-langs.svg
+          download() {
 
-      - name: Fetch streak stats card
-        run: |
-          curl -s "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true" \
-            -o assets/streak-stats.svg
+            NAME=$1
+            URL=$2
 
-      - name: Fetch trophy card
-        run: |
-          curl -s "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=tokyonight&no-frame=true&row=1&column=6" \
-            -o assets/trophies.svg
+            echo "Downloading $NAME..."
 
-      - name: Fetch activity graph
-        run: |
-          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=tokyo-night&hide_border=true&area=true" \
-            -o assets/activity-graph.svg
+            TMP=$(mktemp)
 
-      - name: Commit and push if changed
+            if curl \
+              --location \
+              --retry 5 \
+              --retry-delay 5 \
+              --retry-all-errors \
+              --fail \
+              -A "Mozilla/5.0" \
+              "$URL" \
+              -o "$TMP"
+            then
+
+              if grep -qi "<svg" "$TMP"; then
+                mv "$TMP" "assets/$NAME"
+                echo "✅ Updated $NAME"
+              else
+                echo "⚠ Invalid SVG for $NAME"
+              fi
+
+            else
+              echo "⚠ Failed downloading $NAME"
+            fi
+
+            rm -f "$TMP"
+
+          }
+
+          download github-stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
+
+          download top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true"
+
+          download streak-stats.svg "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true"
+
+          download trophies.svg "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=tokyonight&no-frame=true&row=1&column=6"
+
+          download activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=tokyo-night&hide_border=true&area=true"
+
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update profile stats [skip ci]" && git push)
+
+          git add assets
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update profile stats"
+            git push
+          fi
