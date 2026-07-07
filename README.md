@@ -90,25 +90,25 @@ I'm a **backend-first Full-Stack Engineer** who loves designing systems that sca
 ## 📊 GitHub Stats
 
 <div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=tapan0810&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tapan0810&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="165" src="./assets/github-stats.svg"/>
+<img height="165" src="./assets/top-langs.svg"/>
 </div>
 
 <div align="center">
-<img src="https://streak-stats.demolab.com/?user=tapan0810&theme=tokyonight&hide_border=true"/>
+<img src="./assets/streak-stats.svg"/>
 </div>
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=tapan0810&theme=tokyonight&no-frame=true&row=1&column=6"/>
+<img src="./assets/trophies.svg"/>
 </div>
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=tapan0810&theme=tokyo-night&hide_border=true&area=true"/>
+<img src="./assets/activity-graph.svg"/>
 </div>
 
 <br/>
 
-> 💡 **Note:** These widgets are live...
+> 💡 **Note:** These images are generated once a day by a GitHub Action (`.github/workflows/update-stats.yml`) and committed into `/assets`, so they load instantly from this repo instead of depending on a live third-party server.
 
 <br/>
 
