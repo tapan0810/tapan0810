@@ -87,28 +87,17 @@ I'm a **backend-first Full-Stack Engineer** who loves designing systems that sca
 
 <br/>
 
-## 📊 GitHub Stats
-
-<div align="center">
-<img height="165" src="./assets/github-stats.svg"/>
-<img height="165" src="./assets/top-langs.svg"/>
-</div>
+## 📊 GitHub Activity
 
 <div align="center">
 <img src="./assets/streak-stats.svg"/>
 </div>
 
-<div align="center">
-<img src="./assets/trophies.svg"/>
-</div>
+<br/>
 
 <div align="center">
 <img src="./assets/activity-graph.svg"/>
 </div>
-
-<br/>
-
-> 💡 **Note:** These images are generated once a day by a GitHub Action (`.github/workflows/update-stats.yml`) and committed into `/assets`, so they load instantly from this repo instead of depending on a live third-party server.
 
 <br/>
 
@@ -119,15 +108,19 @@ I'm a **backend-first Full-Stack Engineer** who loves designing systems that sca
 <a href="https://myportfoliotapan.netlify.app" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-4c8bf5?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
+
 <a href="https://drive.google.com/drive/folders/1SdiqduDvIr0ordr3NlR5edNBd8mYZcMg" target="_blank">
   <img src="https://img.shields.io/badge/Resume-EA4335?style=for-the-badge&logo=googledrive&logoColor=white"/>
 </a>
+
 <a href="mailto:arceus0810@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
+
 <a href="https://www.linkedin.com/in/tapan-ray-4941a0383/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
+
 <a href="https://www.instagram.com/_c_y_p_h_3_r_/" target="_blank">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
