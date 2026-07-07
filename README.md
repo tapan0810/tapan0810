@@ -90,13 +90,13 @@ I'm a **backend-first Full-Stack Engineer** who loves designing systems that sca
 ## 📊 GitHub Activity
 
 <div align="center">
-<img src="./assets/streak-stats.svg"/>
+<img src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/streak-stats.svg"/>
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./assets/activity-graph.svg"/>
+<img src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/activity-graph.svg"/>
 </div>
 
 <br/>
