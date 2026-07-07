@@ -108,7 +108,7 @@ I'm a **backend-first Full-Stack Engineer** who loves designing systems that sca
 
 <br/>
 
-> 💡 **Note:** These widgets are live and pull real data from your GitHub account, so keep `tapan0810` as your **exact** GitHub username in every URL above. If any card shows a blank/broken image, it's almost always one of: (1) wrong username, (2) the free Vercel instance is rate-limited/asleep and just needs a refresh, or (3) GitHub's own cache is showing a stale copy — do a hard refresh (Ctrl+Shift+R) after pushing.
+> 💡 **Note:** These widgets are live...
 
 <br/>
 
