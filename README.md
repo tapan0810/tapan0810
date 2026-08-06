@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Tapan%20Ray&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend-Focused%20Full-Stack%20Engineer&descAlignY=58&descSize=20"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Tapan%20Ray&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=20Full-Stack%20Engineer&descAlignY=58&descSize=20"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=4C8BF5&center=true&vCenter=true&width=900&lines=Backend-Focused+Full-Stack+Engineer;.NET+%7C+ASP.NET+Core+%7C+Angular;Scalable+APIs+%7C+Clean+Architecture;Cloud-Ready+Systems+%7C+Azure" />
 
