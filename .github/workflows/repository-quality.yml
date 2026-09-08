@@ -1,0 +1,13 @@
+name: Repository Quality
+on:
+  push:
+  pull_request:
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate repository
+        run: |
+          echo 'Profile repository checked.'
+          test -f README.md
