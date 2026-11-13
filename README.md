@@ -326,13 +326,23 @@ flowchart LR
 
 ---
 
-## 📊 GitHub Metrics
+## 🧩 LeetCode & GitHub Engineering Dashboard
 
 <div align="center">
 
-<img width="100%" src="./assets/metrics.svg" alt="GitHub metrics dashboard"/>
+<a href="https://leetcode.com/u/tapan-ray/">
+  <img src="https://img.shields.io/badge/LeetCode-tapan--ray-F7B500?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile"/>
+</a>
+
+<br/><br/>
+
+<img width="100%" src="./assets/metrics.svg" alt="Live GitHub and LeetCode metrics, including solved problems, skill breakdown, recent submissions, GitHub activity, and languages"/>
 
 </div>
+
+The LeetCode panel is generated from the public profile **tapan-ray** and refreshes with the scheduled Metrics workflow. GitHub coding-habit charts represent repository activity; they are not editor-time measurements.
+
+[View my LeetCode profile](https://leetcode.com/u/tapan-ray/) · [View GitHub activity](https://github.com/tapan0810)
 
 <details>
 <summary><strong>Additional GitHub statistics</strong></summary>
