@@ -1,64 +1,57 @@
 # GitHub Profile Automation Setup
 
-This repository uses separate GitHub Actions workflows for the LeetCode card, GitHub Metrics dashboard, and contribution snake.
+## Workflow schedule (UTC)
 
-## Workflows
+| Workflow | Output | Schedule |
+|---|---|---|
+| Update Profile Stats | Existing GitHub stats SVGs | 00:00 |
+| Generate GitHub Metrics | `assets/metrics.svg` | 00:20 |
+| Generate LeetCode Stats | `assets/leetcode.svg` | 00:40 |
+| Generate Contribution Snake | Light/dark snake SVGs | 01:00 |
 
-| Workflow | Output | Credential | Schedule |
-|---|---|---|---|
-| Generate LeetCode Stats | assets/leetcode.svg | No LeetCode token; plugin documents token as NOT_NEEDED | Daily |
-| Generate GitHub Metrics | assets/metrics.svg | GitHub personal access token in METRICS_TOKEN | Daily |
-| Generate Contribution Snake | assets/github-snake.svg and assets/github-snake-dark.svg | Repository GITHUB_TOKEN | Daily |
-| Update Profile Stats | Existing assets/*.svg | Existing workflow configuration | Daily |
+All profile-asset workflows use the same concurrency group to avoid concurrent pushes to `main`.
 
-## 1. LeetCode live card
+## LeetCode
 
-The dedicated LeetCode workflow is configured with:
-
-- Public LeetCode login: `tapan-ray`
-- Sections: solved problems, skills, and recent submissions
-- Skills display limit: 8
-- Recent submissions display limit: 5
+- Public LeetCode username: `tapan-ray`
+- Card shows solved problems by difficulty only, for a shorter display.
 - Output: `assets/leetcode.svg`
+- No LeetCode API token is required.
+- Workflow: **Generate LeetCode Stats**.
 
-The Metrics LeetCode plugin documentation explicitly states that no token is required and shows `token: NOT_NEEDED` in its example workflow. See the [LeetCode plugin documentation](https://github.com/lowlighter/metrics/blob/master/source/plugins/leetcode/README.md).
+## GitHub Metrics
 
-Run **Generate LeetCode Stats** from the Actions tab to generate the first card. The scheduled run will refresh it daily.
+- Output: `assets/metrics.svg`
+- Compact responsive columns layout; includes profile activity, yearly contribution calendar, top languages, and GitHub activity habits.
+- Requires a repository secret named exactly `METRICS_TOKEN`.
 
-## 2. GitHub Metrics token
+To create/update it:
+1. Open this repository → Settings → Secrets and variables → Actions.
+2. Add or update the repository secret named `METRICS_TOKEN`.
+3. Use a valid GitHub personal access token. Start with the least privilege needed; Metrics documents that no scopes are required for its basic profile rendering, while selected plugins can require extra scopes.
+4. Never put the token in the README or workflow YAML.
+5. Run **Generate GitHub Metrics** from Actions.
 
-The general GitHub Metrics dashboard uses GitHub API information that cannot all be accessed with the repository-scoped `GITHUB_TOKEN`. A personal access token is required by the Metrics project's setup documentation.
+Metrics documentation: https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md
 
-1. Open GitHub → Settings → Developer settings → Personal access tokens.
-2. Create a personal access token. For public profile metrics, start with the minimum permissions required; the Metrics setup guide says no scopes are required for its basic workflow, while certain optional plugins may require additional scopes.
-3. In this repository, open Settings → Secrets and variables → Actions → New repository secret.
-4. Set the secret name to exactly `METRICS_TOKEN`.
-5. Paste the token as the secret value and save it.
-6. Open Actions → **Generate GitHub Metrics** → Run workflow.
+## Contribution Snake
 
-Do not paste the token into this repository, README, workflow YAML, or a chat.
+- Generates `assets/github-snake.svg` and `assets/github-snake-dark.svg`.
+- Uses the repository's built-in `GITHUB_TOKEN`.
+- Commits generated SVGs with a rebase-and-retry push to avoid collisions with other asset workflows.
+- Workflow: **Generate Contribution Snake**.
 
-The Metrics setup documentation: https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md
+## WakaTime
 
-## 3. Contribution Snake
+WakaTime is intentionally not configured because no WakaTime account is currently in use. GitHub contribution habits show GitHub activity, not editor time.
 
-The snake workflow uses `Platane/snk/svg-only@v3` and the repository `GITHUB_TOKEN`. It requires `contents: write` permission and commits generated SVGs into `assets/`.
+## Verification checklist
 
-Run **Generate Contribution Snake** from Actions to generate the first light and dark SVGs.
+- [ ] Run **Generate GitHub Metrics** and confirm `assets/metrics.svg` is replaced with a generated dashboard.
+- [ ] Run **Generate LeetCode Stats** and confirm `assets/leetcode.svg` is a compact solved-only card.
+- [ ] Run **Generate Contribution Snake** and confirm both snake SVGs exist in `assets/`.
+- [ ] Open the profile README in light and dark mode.
 
-## 4. Coding-time statistics
+## Privacy
 
-WakaTime is not enabled because no WakaTime account is currently in use. GitHub Metrics habits shows GitHub contribution patterns and commit activity; it does **not** measure time spent in VS Code, Visual Studio, or other editors. A WakaTime panel can be added later if an account is created.
-
-## 5. Verify the profile
-
-- Run **Generate LeetCode Stats** and confirm `assets/leetcode.svg` is updated.
-- Add `METRICS_TOKEN`, run **Generate GitHub Metrics**, and confirm `assets/metrics.svg` is updated.
-- Run **Generate Contribution Snake** and confirm both snake SVGs are committed.
-- Open the profile README in GitHub light and dark themes.
-
-## Accuracy and privacy
-
-- Keep employer-specific implementation details limited to information approved for public disclosure.
-- Do not publish internal ticket contents, customer data, credentials, private URLs, or proprietary architecture.
-- LeetCode information shown is based on the public LeetCode profile. GitHub activity and language charts reflect GitHub-visible repository data.
+Do not publish internal company ticket content, customer data, credentials, private URLs, or proprietary architecture without authorization.
