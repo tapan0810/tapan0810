@@ -1,22 +1,22 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=235&color=0:071426,35:102D4F,70:174A7E,100:2563EB&text=TAPAN%20RAY&fontSize=62&fontColor=FFFFFF&fontAlignY=36&desc=.NET%20FULL-STACK%20ENGINEER%20%7C%20AI%20APPLICATION%20DEVELOPER&descSize=17&descAlignY=58&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=225&color=0:0B1F36,45:153E68,100:2563EB&text=TAPAN%20RAY&fontSize=62&fontColor=FFFFFF&fontAlignY=36&desc=.NET%20FULL-STACK%20ENGINEER%20%7C%20AI%20APPLICATION%20DEVELOPER&descSize=17&descAlignY=58&animation=fadeIn"/>
 
-<a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://myportfoliotapan.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Explore-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-<a href="mailto:arceus0810@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://github.com/tapan0810"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://myportfoliotapan.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Explore-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="mailto:arceus0810@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/tapan0810"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=900&color=75B8FF&center=true&vCenter=true&width=920&lines=Engineering+Full-Stack+Applications+with+.NET+%26+Angular;Building+AI-Assisted+Workflows+with+LLMs+%26+RAG;Exploring+Agentic+AI%2C+MCP+%26+Semantic+Kernel;Cloud-Ready+Systems+%7C+Reliable+APIs+%7C+Practical+AI"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=900&color=75B8FF&center=true&vCenter=true&width=920&lines=Building+Full-Stack+Applications+with+.NET+%26+Angular;Engineering+Reliable+APIs+and+Cloud-Ready+Systems;Exploring+Generative+AI%2C+LLMs+%26+Agentic+Workflows;Turning+Engineering+Ideas+into+Working+Software"/>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=tapan0810&label=PROFILE%20VIEWS&color=2563EB&style=flat-square"/>
-<img src="https://img.shields.io/badge/LeetCode-Knight-F7B500?style=flat-square&logo=leetcode&logoColor=black"/>
-<img src="https://img.shields.io/badge/CodeChef-3%20Star-A0522D?style=flat-square&logo=codechef&logoColor=white"/>
-<img src="https://img.shields.io/badge/Azure-AZ--900-0078D4?style=flat-square&logo=microsoftazure&logoColor=white"/>
+<img src="https://komarev.com/ghpvc/?username=tapan0810&label=PROFILE%20VIEWS&color=2563EB&style=flat-square" alt="Profile views"/>
+<img src="https://img.shields.io/badge/LeetCode-Knight-F7B500?style=flat-square&logo=leetcode&logoColor=black" alt="LeetCode Knight"/>
+<img src="https://img.shields.io/badge/500%2B-Problems%20Solved-2563EB?style=flat-square" alt="500 plus problems solved"/>
+<img src="https://img.shields.io/badge/CodeChef-3%20Star-A0522D?style=flat-square&logo=codechef&logoColor=white" alt="CodeChef 3 star"/>
 
 </div>
 
@@ -24,23 +24,23 @@
 
 ## 👋 About Me
 
-I'm a **.NET Full-Stack Engineer focused on building enterprise applications and exploring AI-native software development**. I work across application services, frontend experiences, relational data, cloud integration, and AI-assisted engineering workflows.
+I'm a **.NET Full-Stack Engineer and AI application development enthusiast** focused on building maintainable enterprise software and exploring practical ways to integrate intelligent capabilities into applications.
 
-My core development stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript, and Microsoft SQL Server**. Alongside full-stack engineering, I'm interested in applying Generative AI, LLMs, retrieval-augmented generation, and agentic workflows to practical enterprise problems.
+My core engineering stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript, and Microsoft SQL Server**. I also work with cloud and DevOps tooling, and continuously explore Generative AI, LLMs, RAG, and agentic application patterns.
 
-- 🧩 Build full-stack applications with **C#, ASP.NET Core, Angular, and TypeScript**.
-- 🔌 Design REST APIs, modular services, authentication flows, and maintainable application architectures.
-- 🗄️ Work with **SQL Server, EF Core, ADO.NET, Dapper, LINQ, and query optimization**.
-- ☁️ Develop and explore cloud solutions using **Microsoft Azure, Docker, and CI/CD**.
-- 🤖 Explore **Generative AI, LLMs, RAG, Agentic AI, MCP, and Semantic Kernel**.
-- 🔄 Interested in **ETL/ELT, data pipelines, and reliable data-processing workflows**.
-- 🧠 **LeetCode Knight | 500+ problems solved | CodeChef 3-Star | 50+ projects**.
+- Build full-stack applications using **C#, ASP.NET Core, Angular, and TypeScript**.
+- Design and maintain REST APIs, service layers, validation, and authentication workflows.
+- Work with **SQL Server, EF Core, ADO.NET, LINQ, and query optimization**.
+- Develop and explore cloud solutions using **Microsoft Azure, Docker, and CI/CD**.
+- Explore **Generative AI, LLMs, RAG, Agentic AI, MCP, and Semantic Kernel**.
+- Interested in **ETL/ELT, data pipelines, distributed systems, and system design**.
+- **LeetCode Knight · 500+ problems solved · CodeChef 3-Star · 50+ development projects**.
 
-> **Engineering interests:** Full-stack product development · Cloud-native systems · AI-assisted enterprise workflows.
+> **My engineering focus:** Full-stack product development · Cloud-ready systems · AI-enabled application patterns.
 
 ---
 
-## 🧭 Core Engineering Domains
+## 🧭 Engineering Focus
 
 <table>
 <tr>
@@ -52,7 +52,7 @@ My core development stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript
 - ASP.NET Core Web API
 - Angular and TypeScript
 - Entity Framework Core
-- ADO.NET, Dapper and LINQ
+- ADO.NET, Dapper, and LINQ
 - SQL Server and T-SQL
 - Clean Architecture and SOLID
 - JWT authentication and authorization
@@ -61,16 +61,16 @@ My core development stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript
 </td>
 <td width="50%" valign="top">
 
-### 🧠 AI Application Engineering
+### 🧠 AI Application Development
 
-- Generative AI and Large Language Models
-- Retrieval-Augmented Generation (RAG)
-- Agentic AI and tool orchestration
+- Generative AI and LLM fundamentals
 - Prompt engineering
+- Retrieval-Augmented Generation (RAG)
+- Agentic AI patterns and tool calling
 - Multi-agent system concepts
 - Model Context Protocol (MCP)
 - Microsoft Semantic Kernel
-- LLM integration and evaluation concepts
+- LLM integration and evaluation
 
 </td>
 </tr>
@@ -84,8 +84,8 @@ My core development stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript
 - Azure Functions and Azure DevOps
 - Docker and Kubernetes
 - CI/CD pipelines
-- Application Insights and production diagnostics
-- Event-driven processing concepts
+- Application Insights and diagnostics
+- Production troubleshooting
 
 </td>
 <td width="50%" valign="top">
@@ -95,7 +95,7 @@ My core development stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript
 - SQL and database optimization
 - ETL / ELT concepts
 - Data processing and pipeline design
-- Relational and graph data concepts
+- Relational data modeling
 - Data Structures and Algorithms
 - Complexity analysis
 - LeetCode and competitive programming
@@ -112,38 +112,36 @@ My core development stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=cs,ts,js,cpp,python,java"/>
+<img src="https://skillicons.dev/icons?i=cs,ts,js,cpp,python,java" alt="Programming languages"/>
 
 **Backend & Frameworks**
 
-<img src="https://skillicons.dev/icons?i=dotnet,nodejs"/>
+<img src="https://skillicons.dev/icons?i=dotnet,nodejs" alt=".NET and Node.js"/>
 
-`ASP.NET Core` · `Web API` · `EF Core` · `ADO.NET` · `Dapper` · `LINQ` · `REST`
+ASP.NET Core · Web API · EF Core · ADO.NET · Dapper · LINQ · REST APIs
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=angular,react,html,css,bootstrap"/>
+<img src="https://skillicons.dev/icons?i=angular,react,html,css,bootstrap" alt="Frontend technologies"/>
 
-**Databases & Data**
+**Databases**
 
-<img src="https://skillicons.dev/icons?i=mssql,mysql,postgres,redis,neo4j"/>
+<img src="https://skillicons.dev/icons?i=mssql,mysql,redis" alt="Database technologies"/>
 
-`SQL Server` · `T-SQL` · `Stored Procedures` · `Indexing` · `Query Optimization` · `ETL/ELT`
+SQL Server · T-SQL · Stored Procedures · Indexing · Query Optimization
 
 **Cloud, DevOps & Tools**
 
-<img src="https://skillicons.dev/icons?i=azure,docker,kubernetes,git,github,linux,vscode,visualstudio,postman,rabbitmq"/>
+<img src="https://skillicons.dev/icons?i=azure,docker,kubernetes,git,github,linux,vscode,visualstudio,postman" alt="Cloud and developer tools"/>
 
-**AI & Retrieval Technologies**
+**AI Engineering Topics**
 
-<img src="https://img.shields.io/badge/Generative%20AI-7C3AED?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/LLMs-4F46E5?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Model%20Context%20Protocol-475569?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Semantic%20Kernel-512BD4?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Ollama-111827?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Generative%20AI-7C3AED?style=for-the-badge" alt="Generative AI"/>
+<img src="https://img.shields.io/badge/LLMs-4F46E5?style=for-the-badge" alt="LLMs"/>
+<img src="https://img.shields.io/badge/Agentic%20AI-2563EB?style=for-the-badge" alt="Agentic AI"/>
+<img src="https://img.shields.io/badge/RAG-0F766E?style=for-the-badge" alt="RAG"/>
+<img src="https://img.shields.io/badge/MCP-475569?style=for-the-badge" alt="MCP"/>
+<img src="https://img.shields.io/badge/Semantic%20Kernel-512BD4?style=for-the-badge" alt="Semantic Kernel"/>
 
 </div>
 
@@ -154,84 +152,29 @@ My core development stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript
 ### EY — Advanced Analyst
 **November 2026 – Present**
 
-- Working as an Advanced Analyst.
-- Continuing to grow across enterprise technology and software engineering.
+- Joined EY as an Advanced Analyst.
+- Continuing to build experience in enterprise delivery, collaboration, and technology-driven business solutions.
 
 ### LTM (LTIMindtree) — Software Engineer
 **May 2025 – November 2026 · Bengaluru, India**
 
-Contributed to enterprise application development and production support, with a focus on backend engineering, API development, database performance, cloud integration, and incident troubleshooting.
+Contributed to enterprise application development and application maintenance, with work spanning backend engineering, API development, database access, cloud integration, and production support.
 
 **Application Engineering**
-- Developed and maintained production REST APIs using **C# and ASP.NET Core**.
-- Built modular backend functionality using maintainable application architecture.
-- Used **Entity Framework Core, ADO.NET, LINQ, and SQL Server** for data access.
-- Optimized SQL queries and stored procedures.
-- Investigated production issues using logs, Azure Portal, and Application Insights.
-- Collaborated with engineering, QA, and product stakeholders during delivery and support.
+- Developed and maintained REST APIs using **C# and ASP.NET Core**.
+- Implemented backend functionality using modular application structures and established development patterns.
+- Worked with **SQL Server, Entity Framework Core, ADO.NET, and LINQ** for data access.
+- Worked on SQL queries and stored procedures to support application requirements and performance.
+- Investigated production issues using application logs, SQL diagnostics, Azure Portal, and Application Insights.
+- Collaborated with QA, business, and engineering teams during development and support cycles.
 
-**AI-Assisted Bug & Incident Automation Initiative**
+**Bug Automation System**
+- Worked on a system that automated parts of the bug-management workflow.
+- Contributed to backend functionality and API-based application workflows.
+- Worked with C#, ASP.NET Core, SQL Server, REST APIs, and Azure in the wider application environment.
+- Supported production troubleshooting and defect investigation using logs, SQL, Azure Portal, and Application Insights.
 
-Contributed to an AI-assisted production incident workflow designed to reduce repetitive investigation effort and help engineers identify probable causes and relevant resolutions.
-
-**Workflow architecture**
-
-```text
-Linear Incident / Bug
-        |
-        v
-ASP.NET Core Webhook API
-        |
-        v
-RabbitMQ Message Queue
-        |
-        v
-Worker / Incident Orchestrator
-        |
-        +-----------------------------+
-        |              |              |
-        v              v              v
- SQL Server         Qdrant          Neo4j
- Diagnostics       RAG Search     Relationships
- (Dapper /         Historical
- Stored Procs)     Incidents
-        |              |              |
-        +--------------+--------------+
-                       |
-                       v
-              Ollama-hosted LLM
-                       |
-                       v
-          Root-Cause / Resolution Suggestions
-                       |
-                       v
-            Rules & Policy Validation
-                       |
-                       v
-               Human Approval
-                       |
-                       v
-          Controlled Remediation
-                       |
-                       v
-                 Verification
-```
-
-**Key engineering components**
-- **Linear Webhooks:** Trigger the incident-processing workflow when a bug or production incident is raised or updated.
-- **ASP.NET Core / C#:** Receive events, validate requests, and coordinate backend workflow execution.
-- **RabbitMQ:** Decouple event ingestion from asynchronous incident processing.
-- **Worker / Orchestrator:** Manage diagnostic steps and coordinate the incident-analysis workflow.
-- **SQL Server + Dapper:** Retrieve current production context through predefined, controlled stored procedures and diagnostic queries.
-- **Qdrant + RAG:** Retrieve relevant context from a knowledge base containing **200+ historical incident tickets**.
-- **Neo4j:** Represent and retrieve relationships between relevant entities and incident information.
-- **Ollama-hosted LLM:** Analyze the assembled context and generate probable root-cause and resolution recommendations.
-- **Policy validation + human approval:** Keep remediation controlled, with engineer review before approved actions.
-- **Verification:** Check the outcome after a remediation step.
-
-**Security and control principle:** The LLM does not receive unrestricted database access or execute arbitrary SQL. Database diagnostics use predefined, controlled operations, and remediation follows validation and human-approval controls.
-
-**Technologies:** C#, ASP.NET Core, REST APIs, Linear Webhooks, RabbitMQ, SQL Server, Dapper, Qdrant, RAG, Neo4j, Ollama, LLMs, Azure Portal, Application Insights.
+**Technologies:** C#, ASP.NET Core, REST APIs, SQL Server, EF Core, ADO.NET, LINQ, Microsoft Azure, Azure DevOps, Docker, Kubernetes, Git, Agile.
 
 ### Nokia — React Developer, R&D Intern
 **August 2023 – April 2024 · Bengaluru, India**
@@ -259,21 +202,104 @@ Worked on the Customer Insights platform with a focus on frontend engineering an
 
 ---
 
-## 🚀 Selected Engineering Projects
+## 🚀 Featured Projects
 
-| Project | Technologies | Focus |
-|---|---|---|
-| FlowOps | Angular, TypeScript | Enterprise frontend engineering |
-| Student Full-Stack API | ASP.NET Core, EF Core, Angular, SQL Server | Full-stack application development |
-| DevAssist | ASP.NET Core | Developer productivity tooling |
-| GitHub Analytics Pro | React, Tailwind CSS | GitHub data and analytics |
-| Mentorship Management System | ASP.NET Core, Angular, SQL Server | Authentication and workflow management |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-More projects and implementation details are available in my repositories.
+### [FlowOps](https://github.com/tapan0810/FlowOps)
+
+Enterprise-oriented Angular project.
+
+**Focus:** Angular application structure, TypeScript, reusable UI, and frontend engineering.
+
+</td>
+<td width="50%" valign="top">
+
+### [Student Full-Stack API](https://github.com/tapan0810/DotNet_Angular_App_1_StudentAPI)
+
+Full-stack student management application.
+
+**Stack:** ASP.NET Core, Entity Framework Core, Angular, TypeScript, SQL Server.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [GitHub Analytics Pro](https://github.com/tapan0810/github-analytics-pro)
+
+GitHub analytics project.
+
+**Focus:** Repository insights, analytics-oriented UI, and data presentation.
+
+</td>
+<td width="50%" valign="top">
+
+### [ResumeIQ AI](https://github.com/tapan0810/ResumeIQ-AI)
+
+AI-oriented application project.
+
+**Focus:** Resume-related application development and AI exploration.
+
+</td>
+</tr>
+</table>
+
+**More repositories:** [Explore all my GitHub projects](https://github.com/tapan0810?tab=repositories).
 
 ---
 
-## 🏆 Certifications & Achievements
+## 🏗️ Architecture & Engineering Notes
+
+I use architecture diagrams and implementation notes to document how application components interact. The diagrams below are conceptual learning/reference architectures, not claims about a specific employer's internal implementation.
+
+### .NET Web API — Layered Request Flow
+
+~~~mermaid
+flowchart TD
+    A[Client / Angular UI] --> B[ASP.NET Core API]
+    B --> C[Middleware / Authentication / Validation]
+    C --> D[Controller / Endpoint]
+    D --> E[Application Service]
+    E --> F[Domain Rules]
+    E --> G[Infrastructure / Repository]
+    G --> H[(SQL Server)]
+    E --> I[DTO / API Response]
+    I --> B
+    B --> A
+~~~
+
+### RAG — AI Application Pattern
+
+~~~mermaid
+flowchart TD
+    A[User Question] --> B[Application API]
+    B --> C[Query Processing]
+    C --> D[Embedding / Retrieval]
+    D --> E[(Vector Store)]
+    E --> F[Relevant Context]
+    F --> G[LLM]
+    G --> H[Grounded Response]
+    H --> B
+    B --> A
+~~~
+
+### Event-Driven Processing — Conceptual Pattern
+
+~~~mermaid
+flowchart LR
+    A[API / Event Producer] --> B[Message Broker]
+    B --> C[Background Worker]
+    C --> D[Business Processing]
+    D --> E[(Database)]
+    D --> F[Logs / Monitoring]
+~~~
+
+---
+
+## 🏅 Certifications & Achievements
 
 - **Microsoft Certified: Azure Fundamentals (AZ-900)**
 - **Claude Certified Architect – Foundations**
@@ -285,44 +311,61 @@ More projects and implementation details are available in my repositories.
 
 ---
 
-## 🌱 Current Learning & Exploration
+## 📚 Current Learning Roadmap
 
-- Advanced .NET architecture, performance, and application observability.
-- Distributed systems, messaging, caching, database partitioning, and sharding.
-- Azure cloud-native application development.
-- LLM integration, RAG pipelines, and retrieval evaluation.
-- Agent orchestration using Semantic Kernel and MCP.
-- Secure AI tool execution and human-in-the-loop workflows.
-- ETL/ELT pipeline design and data processing.
-- System design and scalable enterprise application architecture.
+| Domain | Current focus |
+|---|---|
+| .NET | Advanced ASP.NET Core, performance, testing, architecture |
+| Angular | Enterprise Angular, RxJS, state management, application design |
+| Cloud | Azure services, deployment, monitoring, CI/CD |
+| Distributed Systems | Messaging, caching, resilience, partitioning, sharding |
+| AI Engineering | LLM integration, RAG, prompt design, evaluation |
+| Agentic AI | Tool calling, orchestration, MCP, Semantic Kernel |
+| Data Engineering | ETL/ELT, data pipelines, SQL performance |
+| System Design | Scalability, reliability, observability, trade-offs |
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Metrics
 
 <div align="center">
 
-### 📈 GitHub Statistics
-
-<img width="49%" src="./assets/github-stats.svg" alt="GitHub Statistics"/>
-<img width="49%" src="./assets/top-langs.svg" alt="Top Programming Languages"/>
-
-<br/><br/>
-
-### 🔥 Contribution Streak
-
-<img width="85%" src="./assets/streak-stats.svg" alt="GitHub Contribution Streak"/>
-
-<br/><br/>
-
-### 📊 Contribution Activity
-
-<img width="95%" src="./assets/activity-graph.svg" alt="GitHub Activity Graph"/>
-
-<br/><br/>
+<img width="100%" src="./assets/metrics.svg" alt="GitHub metrics dashboard"/>
 
 </div>
 
+<details>
+<summary><strong>Additional GitHub statistics</strong></summary>
+
+<div align="center">
+
+<img width="49%" src="./assets/github-stats.svg" alt="GitHub statistics"/>
+<img width="49%" src="./assets/top-langs.svg" alt="Most used programming languages"/>
+
+<br/><br/>
+
+<img width="85%" src="./assets/streak-stats.svg" alt="GitHub contribution streak"/>
+
+<br/><br/>
+
+<img width="95%" src="./assets/activity-graph.svg" alt="GitHub contribution activity"/>
+
+</div>
+</details>
+
+---
+
+## 🐍 Contribution Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg"/>
+  <img alt="Animated GitHub contribution snake" src="./assets/github-snake.svg" width="100%"/>
+</picture>
+
+</div>
 
 ---
 
@@ -330,26 +373,15 @@ More projects and implementation details are available in my repositories.
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/tapan-ray-4941a0383/">
-<img src="https://img.shields.io/badge/LinkedIn-Tapan%20Ray-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="https://myportfoliotapan.netlify.app">
-<img src="https://img.shields.io/badge/Portfolio-Visit-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
-
-<a href="mailto:arceus0810@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<a href="https://github.com/tapan0810">
-<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LinkedIn-Tapan%20Ray-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://myportfoliotapan.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Visit-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="mailto:arceus0810@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/tapan0810"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 <br/><br/>
 
 **Building full-stack products · Exploring intelligent systems · Engineering practical solutions**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:071426,35:102D4F,70:174A7E,100:2563EB&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=105&color=0:0B1F36,45:153E68,100:2563EB&section=footer"/>
 
 </div>
