@@ -302,19 +302,27 @@ More projects and implementation details are available in my repositories.
 
 <div align="center">
 
-<a href="https://github.com/tapan0810">
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=tapan0810&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
-</a>
+### 📈 GitHub Statistics
 
-<a href="https://github.com/tapan0810">
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tapan0810&layout=compact&theme=tokyonight&hide_border=true"/>
-</a>
+<img width="49%" src="./assets/github-stats.svg" alt="GitHub Statistics"/>
+<img width="49%" src="./assets/top-langs.svg" alt="Top Programming Languages"/>
 
 <br/><br/>
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=tapan0810&theme=tokyo-night&hide_border=true&area=true"/>
+### 🔥 Contribution Streak
+
+<img width="85%" src="./assets/streak-stats.svg" alt="GitHub Contribution Streak"/>
+
+<br/><br/>
+
+### 📊 Contribution Activity
+
+<img width="95%" src="./assets/activity-graph.svg" alt="GitHub Activity Graph"/>
+
+<br/><br/>
 
 </div>
+
 
 ---
 
