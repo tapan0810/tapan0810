@@ -223,7 +223,7 @@ AI-oriented resume application.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake.svg"/>
-  <img alt="Animated contribution activity" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake.svg" width="92%"/>
+  <img alt="Animated contribution activity" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake.svg" width="78%"/>
 </picture>
 </div>
 
@@ -237,7 +237,7 @@ AI-oriented resume application.
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/leetcode.svg" width="100%" alt="LeetCode solved problems by difficulty"/>
+<img src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/leetcode.svg" width="64%" alt="LeetCode solved problems by difficulty"/>
 
 </div>
 
