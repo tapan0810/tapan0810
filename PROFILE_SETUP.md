@@ -1,62 +1,48 @@
-# GitHub Profile Automation Setup
+# Profile README Automation
 
-## Workflow schedule (UTC)
+## Active workflows
 
-| Workflow | Output | Schedule |
+| Workflow | Files generated | Schedule |
 |---|---|---|
-| Update Profile Stats | Existing GitHub stats SVGs | 00:00 |
-| Generate GitHub Metrics | `assets/metrics.svg` | 00:20 |
-| Generate LeetCode Stats | `assets/leetcode.svg` | 00:40 |
-| Generate Contribution Snake | Light/dark snake SVGs | 01:00 |
+| Update Profile Stats | github-stats.svg, top-langs.svg, streak-stats.svg, activity-graph.svg | Daily |
+| Generate LeetCode Stats | leetcode.svg | Daily |
+| Generate Contribution Snake | github-snake.svg, github-snake-dark.svg | Daily |
 
-Each workflow has its own concurrency group. The scheduled jobs are staggered to reduce concurrent updates to the default branch. Snake and stats uploads use a pull/rebase retry before pushing.
+Generated files are stored in assets/ and displayed directly in the profile README. No analytics section is hidden in a dropdown.
+
+## GitHub analytics cards
+
+The profile uses generated GitHub stats, language, streak, and activity graph SVGs. These are refreshed by the Update Profile Stats workflow.
+
+The workflow keeps the last known-good SVG when an external card service returns an invalid response, rather than overwriting it with an error page.
 
 ## LeetCode
 
-- Public LeetCode username: `tapan-ray`.
-- The profile card shows solved counts only (All / Easy / Medium / Hard) to keep it compact.
-- Displayed at 340px wide in the profile.
-- Output: `assets/leetcode.svg`.
+- Public profile: https://leetcode.com/u/tapan-ray/
+- The compact card displays solved problem totals by difficulty.
+- Output: assets/leetcode.svg
 - No separate LeetCode API token is required.
-- Workflow: **Generate LeetCode Stats**.
-
-## GitHub Metrics
-
-- Output: `assets/metrics.svg`.
-- Compact dashboard with profile activity, yearly contribution calendar, languages, and GitHub habits.
-- Requires a repository secret named exactly `METRICS_TOKEN`.
-- **Important:** the Metrics action's current GraphQL integration rejects fine-grained personal access tokens. Use a **classic personal access token** instead. Its basic setup requires no scopes; add only extra scopes if an optional feature explicitly requires them.
-
-To replace the secret:
-1. Open [GitHub Personal Access Tokens](https://github.com/settings/tokens).
-2. Create a **classic** token (not fine-grained).
-3. Return to this repository → Settings → Secrets and variables → Actions.
-4. Edit `METRICS_TOKEN` and replace its value with the classic token.
-5. Run **Generate GitHub Metrics** from Actions.
-
-Never put the token in the README, workflow YAML, or a public file.
-
-Metrics setup docs: https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/documentation/setup/action.md
+- Workflow: Generate LeetCode Stats.
 
 ## Contribution Snake
 
-- Always shown directly in README (not inside a collapsible section).
-- Rendered at 72% width.
-- Generates `assets/github-snake.svg` and `assets/github-snake-dark.svg`.
-- Uses the repository's built-in `GITHUB_TOKEN`.
-- Workflow: **Generate Contribution Snake**.
+- Output: assets/github-snake.svg and assets/github-snake-dark.svg.
+- Uses the repository's built-in GITHUB_TOKEN.
+- Workflow: Generate Contribution Snake.
+- The README uses the dark/light SVG variant based on the visitor's theme.
 
-## WakaTime
+## Removed integrations
 
-WakaTime is intentionally not configured because no WakaTime account is currently in use. GitHub habits report GitHub contribution patterns, not editor time.
+The GitHub Metrics workflow was removed because its token configuration was failing. The broken metrics placeholder and invalid trophies SVG were also removed from the profile assets.
 
-## Verify
+WakaTime is not configured because no WakaTime account is in use. GitHub activity charts are not a substitute for IDE coding-time measurements.
 
-- [ ] Run **Generate GitHub Metrics** and confirm `assets/metrics.svg` is replaced with the generated dashboard after the classic token is saved.
-- [ ] Run **Generate LeetCode Stats** and confirm `assets/leetcode.svg` contains only solved counts.
-- [ ] Run **Generate Contribution Snake** and confirm both snake SVGs exist under `assets/`.
-- [ ] Confirm Contribution Activity is visible without expanding any dropdown.
-- [ ] Review the profile in both GitHub light and dark themes.
+## Run manually
+
+Open the repository's Actions tab and run:
+1. Update Profile Stats
+2. Generate LeetCode Stats
+3. Generate Contribution Snake
 
 ## Privacy
 
