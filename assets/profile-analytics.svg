@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
 <title id="title">Tapan Ray GitHub public repository analytics</title>
 <desc id="desc">Public non-fork repository count, total stars, total forks, followers, and primary programming languages by repository count. Updated 2026-11-13 UTC.</desc>
 <defs>
@@ -26,28 +26,28 @@
 <rect x="756" y="62" width="4" height="88" rx="2" fill="#C4B5FD"/>
 <text x="774" y="91" fill="#AFC3DB" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="0.8">FOLLOWERS</text>
 <text x="774" y="127" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">13</text>
-<text x="36" y="190" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">LANGUAGES ACROSS PUBLIC REPOSITORIES</text>
-<text x="964" y="190" fill="#8FA9C5" font-family="Segoe UI,Arial,sans-serif" font-size="11" text-anchor="end">BY REPOSITORY COUNT</text>
-<text x="40" y="226" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">C#</text>
-<rect x="220" y="211" width="620" height="16" rx="8" fill="#263D59"/>
-<rect x="220" y="211" width="610" height="16" rx="8" fill="url(#bar)"/>
-<text x="860" y="225" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">44 repos</text>
-<text x="40" y="253" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">TypeScript</text>
-<rect x="220" y="238" width="620" height="16" rx="8" fill="#263D59"/>
-<rect x="220" y="238" width="55" height="16" rx="8" fill="url(#bar)"/>
-<text x="860" y="252" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">4 repos</text>
-<text x="40" y="280" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">CSS</text>
-<rect x="220" y="265" width="620" height="16" rx="8" fill="#263D59"/>
-<rect x="220" y="265" width="55" height="16" rx="8" fill="url(#bar)"/>
-<text x="860" y="279" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">4 repos</text>
-<text x="40" y="307" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">HTML</text>
-<rect x="220" y="292" width="620" height="16" rx="8" fill="#263D59"/>
-<rect x="220" y="292" width="42" height="16" rx="8" fill="url(#bar)"/>
-<text x="860" y="306" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">3 repos</text>
-<text x="40" y="334" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">JavaScript</text>
-<rect x="220" y="319" width="620" height="16" rx="8" fill="#263D59"/>
-<rect x="220" y="319" width="14" height="16" rx="8" fill="url(#bar)"/>
-<text x="860" y="333" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">1 repos</text>
+<text x="36" y="166" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">LANGUAGES ACROSS PUBLIC REPOSITORIES</text>
+<text x="964" y="166" fill="#8FA9C5" font-family="Segoe UI,Arial,sans-serif" font-size="11" text-anchor="end">BY REPOSITORY COUNT</text>
+<text x="40" y="199" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">C#</text>
+<rect x="220" y="184" width="620" height="16" rx="8" fill="#263D59"/>
+<rect x="220" y="184" width="610" height="16" rx="8" fill="url(#bar)"/>
+<text x="860" y="198" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">44 repos</text>
+<text x="40" y="223" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">TypeScript</text>
+<rect x="220" y="208" width="620" height="16" rx="8" fill="#263D59"/>
+<rect x="220" y="208" width="55" height="16" rx="8" fill="url(#bar)"/>
+<text x="860" y="222" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">4 repos</text>
+<text x="40" y="247" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">CSS</text>
+<rect x="220" y="232" width="620" height="16" rx="8" fill="#263D59"/>
+<rect x="220" y="232" width="55" height="16" rx="8" fill="url(#bar)"/>
+<text x="860" y="246" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">4 repos</text>
+<text x="40" y="271" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">HTML</text>
+<rect x="220" y="256" width="620" height="16" rx="8" fill="#263D59"/>
+<rect x="220" y="256" width="42" height="16" rx="8" fill="url(#bar)"/>
+<text x="860" y="270" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">3 repos</text>
+<text x="40" y="295" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">JavaScript</text>
+<rect x="220" y="280" width="620" height="16" rx="8" fill="#263D59"/>
+<rect x="220" y="280" width="14" height="16" rx="8" fill="url(#bar)"/>
+<text x="860" y="294" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="12">1 repos</text>
 <line x1="36" y1="375" x2="964" y2="375" stroke="#29496C"/>
-<text x="36" y="366" fill="#91A9C4" font-family="Segoe UI,Arial,sans-serif" font-size="10">Source: GitHub public REST API · Original public repositories only · Languages counted by repository metadata</text>
+<text x="36" y="337" fill="#91A9C4" font-family="Segoe UI,Arial,sans-serif" font-size="10">Source: GitHub public REST API · Original public repositories only · Languages counted by repository metadata</text>
 </svg>
