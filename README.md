@@ -1,63 +1,98 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/hero-banner.svg" alt="Tapan Ray — .NET Full-Stack Engineer | Cloud | AI Applications"/>
-
-<a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://myportfoliotapan.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Explore-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-<a href="mailto:arceus0810@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://leetcode.com/u/tapan-ray/"><img src="https://img.shields.io/badge/LeetCode-500%2B%20Solved-F7B500?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/hero-banner.svg" alt="Tapan Ray — .NET Full-Stack Engineer, Cloud and AI Applications"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=75B8FF&center=true&vCenter=true&width=900&lines=Building+enterprise+applications+with+.NET+%26+Angular;Designing+reliable+APIs+and+cloud-ready+systems;Exploring+Generative+AI%2C+RAG+%26+Agentic+Workflows;Learning+by+building%2C+measuring+and+shipping" alt="Engineering focus"/>
+<a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://myportfoliotapan.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-EXPLORE-1D4ED8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="mailto:arceus0810@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT-0F4C81?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://leetcode.com/u/tapan-ray/"><img src="https://img.shields.io/badge/LEETCODE-500%2B%20SOLVED-2563EB?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
 
-<br/>
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=tapan0810&label=PROFILE%20VIEWS&color=2563EB&style=flat-square" alt="Profile views"/>
-<img src="https://img.shields.io/badge/CodeChef-3%20Star-A0522D?style=flat-square&logo=codechef&logoColor=white" alt="CodeChef 3 Star"/>
-<img src="https://img.shields.io/badge/Projects-50%2B-2563EB?style=flat-square&logo=github&logoColor=white" alt="50 plus projects"/>
+<img src="https://komarev.com/ghpvc/?username=tapan0810&label=PROFILE%20VIEWS&color=1D4ED8&style=flat-square" alt="Profile views"/>
+<img src="https://img.shields.io/badge/CODECHEF-3%20STAR-1E40AF?style=flat-square&logo=codechef&logoColor=white" alt="CodeChef 3 Star"/>
+<img src="https://img.shields.io/badge/PROJECTS-50%2B-0F4C81?style=flat-square&logo=github&logoColor=white" alt="50 plus projects"/>
 
 </div>
+
+<p align="center">
+  <strong>.NET Full-Stack Engineering</strong> &nbsp; · &nbsp;
+  <strong>Cloud-Ready Systems</strong> &nbsp; · &nbsp;
+  <strong>AI-Enabled Applications</strong>
+</p>
 
 ---
 
 ## 👨‍💻 About Me
 
-I'm a **.NET Full-Stack Engineer** focused on building maintainable enterprise applications, reliable backend services, and cloud-ready systems. I work across API, data, frontend, and deployment layers—and I'm actively exploring how Generative AI and agentic workflows can improve real-world software.
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
 
-- **Backend:** C#, .NET, ASP.NET Core, REST APIs, EF Core, ADO.NET, LINQ
-- **Frontend:** Angular, TypeScript, React, JavaScript
-- **Data:** SQL Server, T-SQL, relational modelling, query optimization, Redis
-- **Cloud & DevOps:** Microsoft Azure, Azure DevOps, Docker, Kubernetes, CI/CD
-- **AI engineering:** LLMs, RAG, prompt engineering, tool calling, MCP, Semantic Kernel
-- **Problem solving:** 500+ LeetCode problems · LeetCode Knight · CodeChef 3-Star
+I'm a **.NET Full-Stack Engineer** focused on building maintainable enterprise applications, reliable APIs, and cloud-ready systems. I work across backend services, frontend experiences, relational data, and deployment workflows—and I'm actively exploring how Generative AI and agentic patterns can solve practical software problems.
 
-> I enjoy understanding systems end to end: from a clean API contract and an efficient query to a responsive UI and a reliable deployment.
+<table>
+<tr>
+<td width="58%" valign="top">
 
-## 🧭 Engineering Focus
+**How I build**
+
+- Design APIs and modular backend services with <code>C#</code> and <code>ASP.NET Core</code>.
+- Develop end-to-end interfaces with <code>Angular</code> and <code>TypeScript</code>.
+- Work with <code>SQL Server</code>, <code>EF Core</code>, <code>ADO.NET</code>, and <code>LINQ</code>.
+- Build and operate cloud-ready solutions with <code>Azure</code>, <code>Docker</code>, and CI/CD.
+- Explore <code>LLMs</code>, <code>RAG</code>, <code>MCP</code>, and <code>Semantic Kernel</code> for AI-enabled applications.
+
+</td>
+<td width="42%" valign="top">
+
+**At a glance**
+
+| Focus | Details |
+|---|---|
+| Engineering | .NET Full-Stack |
+| Frontend | Angular / React |
+| Cloud | Microsoft Azure |
+| AI | Generative AI / Agentic AI |
+| Problem solving | LeetCode Knight |
+| Practice | 500+ problems · CodeChef 3-Star |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧭 Engineering Capabilities
+
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ Backend & Architecture
+### ⚙️ Application Engineering
+
 - ASP.NET Core Web API
+- REST API design and integration
 - Clean Architecture and SOLID
 - Dependency Injection and middleware
 - Authentication and authorization
-- EF Core, ADO.NET, LINQ
-- API performance and exception handling
+- Entity Framework Core, ADO.NET, LINQ
+- API validation, diagnostics, and testing
 
 </td>
 <td width="50%" valign="top">
 
-### 🖥️ Frontend Engineering
+### 🖥️ Full-Stack Development
+
 - Angular and TypeScript
 - RxJS and reactive patterns
-- Reusable component design
-- State and form management
+- Reusable component architecture
+- Forms and state management
 - React and modern JavaScript
-- API integration and responsive UI
+- Responsive UI engineering
+- Frontend-to-API integration
 
 </td>
 </tr>
@@ -65,29 +100,36 @@ I'm a **.NET Full-Stack Engineer** focused on building maintainable enterprise a
 <td width="50%" valign="top">
 
 ### ☁️ Cloud & Reliability
-- Azure App Service and Azure SQL
+
+- Azure App Services and Azure SQL
 - Azure Functions and Storage
 - Azure DevOps and CI/CD
 - Docker and Kubernetes
-- Logging, monitoring and diagnostics
+- Logging, monitoring, and diagnostics
 - Production support and troubleshooting
 
 </td>
 <td width="50%" valign="top">
 
-### 🧠 Data, AI & Distributed Systems
-- SQL performance and indexing
-- ETL / ELT and data pipelines
+### 🧠 Data & AI Exploration
+
+- SQL performance, indexing, and data modelling
+- ETL / ELT and data pipeline concepts
 - Caching and distributed systems
 - Generative AI and LLM integration
-- RAG, agents and tool calling
+- RAG, agentic patterns, and tool calling
+- MCP and Semantic Kernel
 - System design and scalability
 
 </td>
 </tr>
 </table>
 
+---
+
 ## 🛠️ Technology Stack
+
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
 
 <div align="center">
 
@@ -97,39 +139,47 @@ I'm a **.NET Full-Stack Engineer** focused on building maintainable enterprise a
 
 **Backend & Frontend**
 
-<img src="https://skillicons.dev/icons?i=dotnet,nodejs,angular,react,html,css,bootstrap" alt=".NET, Node.js, Angular, React, HTML, CSS and Bootstrap"/>
+<img src="https://skillicons.dev/icons?i=dotnet,angular,react,nodejs,html,css,bootstrap" alt=".NET, Angular, React, Node.js, HTML, CSS and Bootstrap"/>
 
-**Databases, Cloud & Tools**
+**Databases, Cloud & Developer Tools**
 
 <img src="https://skillicons.dev/icons?i=mssql,mysql,redis,azure,docker,kubernetes,git,github,linux,vscode,visualstudio,postman" alt="SQL Server, MySQL, Redis, Azure, Docker, Kubernetes and developer tools"/>
 
 </div>
 
-**Also working with:** ASP.NET Core · Web API · EF Core · ADO.NET · Dapper · LINQ · T-SQL · RxJS · Azure DevOps · GitHub Actions · SonarQube
+<p align="center">
+  <code>ASP.NET Core</code> · <code>Web API</code> · <code>EF Core</code> · <code>ADO.NET</code> · <code>Dapper</code> · <code>LINQ</code> · <code>RxJS</code> · <code>Azure DevOps</code> · <code>GitHub Actions</code> · <code>SonarQube</code>
+</p>
 
 ---
 
 ## 💼 Professional Experience
 
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
+
 ### EY — Advanced Analyst
 **November 2026 – Present**
 
-- Joined EY as an Advanced Analyst.
-- Continuing to grow across enterprise delivery, collaboration, and technology-driven business solutions.
+Joined EY as an Advanced Analyst. Focused on contributing to enterprise delivery, collaborating with teams, and continuing to grow as a technology professional.
 
 ### LTIMindtree — Software Engineer
 **May 2025 – November 2026 · Bengaluru, India**
 
 Contributed to enterprise application development and application maintenance across backend engineering, API development, database access, cloud integration, and production support.
 
-- Developed and maintained REST APIs using **C# and ASP.NET Core**.
+**Application engineering**
+- Developed and maintained REST APIs using <code>C#</code> and <code>ASP.NET Core</code>.
 - Implemented modular backend functionality and application workflows.
-- Worked with **SQL Server, EF Core, ADO.NET, and LINQ** for data access.
-- Investigated production issues using logs, SQL diagnostics, Azure Portal, and Application Insights.
-- Contributed to a bug-management automation system and supported API-driven workflows.
-- Collaborated with QA, business, and engineering teams in delivery and support cycles.
+- Worked with <code>SQL Server</code>, <code>EF Core</code>, <code>ADO.NET</code>, and <code>LINQ</code> for data access.
+- Investigated production issues using application logs, SQL diagnostics, Azure Portal, and Application Insights.
+- Collaborated with QA, business, and engineering teams during delivery and support cycles.
 
-**Technologies:** C# · ASP.NET Core · REST APIs · SQL Server · EF Core · ADO.NET · LINQ · Azure · Azure DevOps
+**Bug automation**
+- Contributed to a bug-management automation system and its API-driven workflows.
+- Worked within the wider .NET and SQL Server application environment.
+- Supported defect investigation and production troubleshooting.
+
+<sub><strong>Core technologies:</strong> C# · ASP.NET Core · REST APIs · SQL Server · EF Core · ADO.NET · LINQ · Azure · Azure DevOps</sub>
 
 ### Nokia — React Developer, R&D Intern
 **August 2023 – April 2024 · Bengaluru, India**
@@ -141,20 +191,22 @@ Worked on the Customer Insights platform with a focus on frontend engineering.
 - Improved frontend code quality through debugging, refactoring, and SonarQube analysis.
 - Collaborated with cross-functional teams in an Agile environment.
 
-**Technologies:** React.js · JavaScript · HTML5 · CSS3 · REST APIs · Git · SonarQube
+<sub><strong>Technologies:</strong> React.js · JavaScript · HTML5 · CSS3 · REST APIs · Git · SonarQube</sub>
 
 ### Celebal Technologies — React Developer Intern
 **June 2023 – August 2023**
 
 - Built reusable React components and interactive interfaces.
-- Worked with React Hooks, props, and state.
+- Worked with React Hooks, props, and component state.
 - Integrated REST APIs into frontend workflows.
 
-**Technologies:** React.js · JavaScript · HTML5 · CSS3 · REST APIs · Git
+<sub><strong>Technologies:</strong> React.js · JavaScript · HTML5 · CSS3 · REST APIs · Git</sub>
 
 ---
 
 ## 🚀 Selected Projects
+
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
 
 <table>
 <tr>
@@ -162,18 +214,18 @@ Worked on the Customer Insights platform with a focus on frontend engineering.
 
 ### [FlowOps](https://github.com/tapan0810/FlowOps)
 
-Enterprise-oriented Angular application.
+**Angular · TypeScript**
 
-**Focus:** Angular architecture, TypeScript, reusable components, and maintainable frontend engineering.
+An enterprise-oriented frontend project focused on application structure, reusable UI components, and maintainable frontend engineering.
 
 </td>
 <td width="50%" valign="top">
 
 ### [Student Full-Stack API](https://github.com/tapan0810/DotNet_Angular_App_1_StudentAPI)
 
-Full-stack student management application.
+**ASP.NET Core · EF Core · Angular · SQL Server**
 
-**Stack:** ASP.NET Core · EF Core · Angular · TypeScript · SQL Server
+A full-stack student management application combining a .NET API with an Angular frontend.
 
 </td>
 </tr>
@@ -182,101 +234,130 @@ Full-stack student management application.
 
 ### [GitHub Analytics Pro](https://github.com/tapan0810/github-analytics-pro)
 
-GitHub analytics and data presentation project.
+**React · TypeScript · Analytics UI**
 
-**Focus:** Repository insights, analytics UI, and visualizing developer activity.
+A repository analytics project focused on GitHub insights and developer activity presentation.
 
 </td>
 <td width="50%" valign="top">
 
 ### [ResumeIQ AI](https://github.com/tapan0810/ResumeIQ-AI)
 
-AI-oriented resume application.
+**AI-oriented application**
 
-**Focus:** Resume workflows and practical AI application development.
+A resume analysis platform exploring locally hosted model integration and resume evaluation workflows.
 
 </td>
 </tr>
 </table>
 
 <div align="center">
-<a href="https://github.com/tapan0810?tab=repositories"><img src="https://img.shields.io/badge/Explore%20All%2070%2B%20Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories"/></a>
+
+<a href="https://github.com/tapan0810?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE%20ALL%20REPOSITORIES-1D4ED8?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories"/></a>
+
 </div>
 
 ---
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img width="96%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/profile-analytics.svg" alt="Live GitHub public repository analytics: repositories, stars, forks, followers and primary languages"/>
-
-</div>
-
-<p align="center"><sub>Generated daily from GitHub's public REST API. Language distribution is counted by repository primary language, not by source-code bytes.</sub></p>
-
----
-
-## 🐍 Contribution Activity
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake.svg"/>
-  <img alt="Animated contribution activity" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake.svg" width="78%"/>
-</picture>
-</div>
-
----
-
-## 🧩 LeetCode Progress
-
-<div align="center">
-
-<a href="https://leetcode.com/u/tapan-ray/"><img src="https://img.shields.io/badge/LeetCode-View%20Live%20Profile-F7B500?style=for-the-badge&logo=leetcode&logoColor=black" alt="View LeetCode profile"/></a>
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/leetcode.svg" width="64%" alt="LeetCode solved problems by difficulty"/>
-
-</div>
 
 ## 🏅 Certifications & Achievements
+
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Certifications**
 
 - Microsoft Certified: Azure Fundamentals (AZ-900)
 - Claude Certified Architect — Foundations
 - Claude Certified Developer — Foundations
 - Claude Certified Architect — Professional
-- LeetCode Knight · 500+ problems solved
-- CodeChef · 3-Star
-- Built 50+ development projects
+
+</td>
+<td width="50%" valign="top">
+
+**Problem solving & building**
+
+- LeetCode Knight
+- 500+ LeetCode problems solved
+- CodeChef 3-Star
+- 50+ development projects
+
+</td>
+</tr>
+</table>
+
+---
 
 ## 📚 Current Learning Roadmap
 
-| Area | Focus |
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
+
+| Domain | Current focus |
 |---|---|
 | .NET | Advanced ASP.NET Core, performance, testing, architecture |
 | Angular | Enterprise Angular, RxJS, state management |
 | Cloud | Azure services, deployment, monitoring, CI/CD |
-| Distributed Systems | Messaging, caching, resilience, partitioning, sharding |
-| AI Engineering | LLM integration, RAG, evaluation, agentic workflows |
-| System Design | Scalability, reliability, observability, trade-offs |
+| Distributed systems | Messaging, caching, resilience, partitioning, sharding |
+| AI engineering | LLM integration, RAG, evaluation, agentic workflows |
+| System design | Scalability, reliability, observability, trade-offs |
+
+---
+
+## 📈 GitHub & Coding Activity
+
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
+
+### GitHub Analytics
+
+<div align="center">
+
+<img width="96%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/profile-analytics.svg" alt="GitHub public repositories, stars, forks, followers, and primary language distribution"/>
+
+</div>
+
+<p align="center"><sub>Updated daily from GitHub's public REST API. Language counts represent repository primary-language metadata.</sub></p>
+
+### LeetCode Progress
+
+<div align="center">
+
+<a href="https://leetcode.com/u/tapan-ray/"><img src="https://img.shields.io/badge/LEETCODE-VIEW%20PROFILE-1D4ED8?style=for-the-badge&logo=leetcode&logoColor=white" alt="View LeetCode profile"/></a>
+
+<br/><br/>
+
+<img width="58%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/leetcode.svg" alt="LeetCode solved problems by difficulty"/>
+
+</div>
+
+### Contribution Activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake.svg"/>
+  <img width="78%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake.svg" alt="Animated GitHub contribution activity"/>
+</picture>
+
+</div>
 
 ---
 
 ## 🤝 Let's Connect
 
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
+
 <div align="center">
 
-<a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LinkedIn-Tapan%20Ray-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://myportfoliotapan.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-<a href="mailto:arceus0810@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/tapan0810"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LINKEDIN-TAPAN%20RAY-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://myportfoliotapan.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-VISIT-1D4ED8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="mailto:arceus0810@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT-0F4C81?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/tapan0810"><img src="https://img.shields.io/badge/GITHUB-FOLLOW-17365D?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 
 <br/><br/>
 
 **Building useful software · Learning continuously · Shipping with purpose**
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:071A2F,38:123B60,72:1D4F91,100:2563EB&section=footer" alt="Blue gradient footer"/>
 
 </div>
