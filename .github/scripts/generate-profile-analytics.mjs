@@ -74,7 +74,7 @@ const metrics = [
 
 const svg = [];
 svg.push('<?xml version="1.0" encoding="UTF-8"?>');
-svg.push('<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">');
+svg.push('<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">');
 svg.push('<title id="title">Tapan Ray GitHub public repository analytics</title>');
 svg.push('<desc id="desc">Public non-fork repository count, total stars, total forks, followers, and primary programming languages by repository count. Updated ' + updated + ' UTC.</desc>');
 svg.push('<defs>');
@@ -97,16 +97,15 @@ for (let i = 0; i < metrics.length; i += 1) {
   svg.push('<text x="' + (x + 18) + '" y="127" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">' + number(item.value) + '</text>');
 }
 
-svg.push('<text x="36" y="190" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">LANGUAGES ACROSS PUBLIC REPOSITORIES</text>');
-svg.push('<text x="964" y="190" fill="#8FA9C5" font-family="Segoe UI,Arial,sans-serif" font-size="11" text-anchor="end">BY REPOSITORY COUNT</text>');
+svg.push('<text x="36" y="166" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">LANGUAGES ACROSS PUBLIC REPOSITORIES</text>');
+svg.push('<text x="964" y="166" fill="#8FA9C5" font-family="Segoe UI,Arial,sans-serif" font-size="11" text-anchor="end">BY REPOSITORY COUNT</text>');
 
-const palette = ["#60A5FA", "#34D399", "#FBBF24", "#C4B5FD", "#F472B6", "#2DD4BF"];
 const maxCount = Math.max(1, ...languages.map(([, count]) => count));
 if (languages.length === 0) {
   svg.push('<text x="38" y="238" fill="#CBD5E1" font-family="Segoe UI,Arial,sans-serif" font-size="14">No primary-language metadata found in public repositories.</text>');
 } else {
   languages.forEach(([language, count], index) => {
-    const y = 211 + index * 27;
+    const y = 184 + index * 24;
     const barWidth = Math.max(8, Math.round((count / maxCount) * 610));
     svg.push('<text x="40" y="' + (y + 15) + '" fill="#DCE8F6" font-family="Segoe UI,Arial,sans-serif" font-size="13">' + escapeXml(language) + '</text>');
     svg.push('<rect x="220" y="' + y + '" width="620" height="16" rx="8" fill="#263D59"/>');
@@ -116,7 +115,7 @@ if (languages.length === 0) {
 }
 
 svg.push('<line x1="36" y1="375" x2="964" y2="375" stroke="#29496C"/>');
-svg.push('<text x="36" y="366" fill="#91A9C4" font-family="Segoe UI,Arial,sans-serif" font-size="10">Source: GitHub public REST API · Original public repositories only · Languages counted by repository metadata</text>');
+svg.push('<text x="36" y="337" fill="#91A9C4" font-family="Segoe UI,Arial,sans-serif" font-size="10">Source: GitHub public REST API · Original public repositories only · Languages counted by repository metadata</text>');
 svg.push('</svg>');
 
 fs.mkdirSync("assets", { recursive: true });
