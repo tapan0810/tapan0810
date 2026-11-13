@@ -1,0 +1,59 @@
+name: Generate Profile Analytics
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-analytics.yml"
+      - ".github/scripts/generate-profile-analytics.mjs"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-analytics-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate public repository analytics
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node .github/scripts/generate-profile-analytics.mjs
+
+      - name: Commit and push analytics SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-analytics.svg
+
+          if git diff --cached --quiet; then
+            echo "Profile analytics are already up to date."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh GitHub profile analytics [skip ci]"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              echo "Profile analytics published successfully."
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying."
+            sleep 3
+          done
+
+          echo "Unable to publish profile analytics after three attempts."
+          exit 1
