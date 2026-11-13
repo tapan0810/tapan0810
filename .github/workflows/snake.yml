@@ -2,7 +2,7 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "17 0 * * *"
+    - cron: "0 1 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -13,13 +13,19 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-assets-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - name: Checkout profile repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Generate light and dark contribution snakes
         uses: Platane/snk/svg-only@v3
@@ -29,14 +35,29 @@ jobs:
             assets/github-snake.svg
             assets/github-snake-dark.svg?palette=github-dark
 
-      - name: Commit generated SVG files
+      - name: Commit and push generated SVGs safely
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/github-snake.svg assets/github-snake-dark.svg
+
           if git diff --cached --quiet; then
             echo "No contribution snake changes."
-          else
-            git commit -m "chore: update contribution snake"
-            git push
+            exit 0
           fi
+
+          git commit -m "chore: update contribution snake [skip ci]"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying after rebasing."
+            sleep 3
+          done
+
+          echo "Unable to push snake SVGs after three attempts."
+          exit 1
