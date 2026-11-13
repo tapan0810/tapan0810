@@ -26,13 +26,21 @@ Do not put a token directly in README.md or workflow files.
 
 The snake workflow uses Platane/snk/svg-only@v3 and the repository GITHUB_TOKEN. The workflow needs contents: write permission. Generated files are committed to assets/.
 
-## 3. LeetCode live card
+## 3. LeetCode live dashboard
 
-The README currently shows the verified profile achievement as text (LeetCode Knight, 500+ problems solved). A live LeetCode card is not configured because the exact public LeetCode username/slug has not yet been supplied. Once known, configure the Metrics LeetCode plugin using plugin_leetcode_user.
+The LeetCode plugin is configured for the public profile login `tapan-ray`:
 
-## 4. Coding-time statistics
+- `plugin_leetcode: yes`
+- `plugin_leetcode_user: tapan-ray`
+- Sections: solved problems, skill breakdown, and recent submissions.
+- The LeetCode plugin does not require a separate API token. It uses public LeetCode profile data.
+- The dashboard is generated into `assets/metrics.svg` by the Metrics workflow.
 
-The Metrics habits plugin shows GitHub activity patterns; it is not an IDE time tracker. A WakaTime dashboard requires a WakaTime account and API key. Add that only if you want to publish editor-usage statistics.
+See [LeetCode profile](https://leetcode.com/u/tapan-ray/).
+
+## 4. Coding activity (WakaTime not configured)
+
+WakaTime is not enabled because no WakaTime account is currently in use. The GitHub Metrics habits plugin reports GitHub contribution patterns and commit activity; it does **not** measure time spent in VS Code, Visual Studio, or other editors. If you start using WakaTime later, add its API key as a separate repository secret and enable the WakaTime plugin.
 
 ## 5. Verify
 
