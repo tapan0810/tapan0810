@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+  <title id="title">Tapan Ray — .NET Full-Stack Engineer and AI Application Developer</title>
+  <desc id="desc">A premium navy and blue engineering banner featuring .NET full-stack development, cloud engineering, and AI application development.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07182B"/>
+      <stop offset="52%" stop-color="#102D4D"/>
+      <stop offset="100%" stop-color="#174A83"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#173B61" stop-opacity=".96"/>
+      <stop offset="100%" stop-color="#0D2139" stop-opacity=".96"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8DB9E8" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="310" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="310" rx="22" fill="url(#grid)"/>
+  <circle cx="1070" cy="20" r="175" fill="#2563EB" opacity=".18" filter="url(#softGlow)"/>
+  <circle cx="775" cy="305" r="155" fill="#38BDF8" opacity=".09" filter="url(#softGlow)"/>
+  <path d="M0 255C210 205 360 310 570 252S920 205 1200 260V310H0Z" fill="#061424" opacity=".35"/>
+  <path d="M0 0H10V310H0Z" fill="url(#accent)"/>
+  <path d="M42 48H76" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/>
+  <text x="42" y="76" fill="#8FC8FF" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3.1">SOFTWARE ENGINEERING  /  FULL-STACK  /  AI</text>
+
+  <text x="42" y="151" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="750" letter-spacing="-1.4">Tapan Ray</text>
+  <text x="44" y="190" fill="#E2EEFC" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="650" letter-spacing=".65">.NET FULL-STACK ENGINEER</text>
+  <text x="44" y="222" fill="#B7CBE2" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="450">Cloud-ready systems · AI-enabled applications · Reliable APIs</text>
+
+  <g transform="translate(44 252)">
+    <rect width="104" height="29" rx="14.5" fill="#123C63" stroke="#3B82F6" stroke-opacity=".65"/>
+    <text x="52" y="19" fill="#DCEEFF" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">C# / .NET</text>
+    <rect x="114" width="104" height="29" rx="14.5" fill="#123C63" stroke="#3B82F6" stroke-opacity=".65"/>
+    <text x="166" y="19" fill="#DCEEFF" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">ANGULAR</text>
+    <rect x="228" width="92" height="29" rx="14.5" fill="#123C63" stroke="#3B82F6" stroke-opacity=".65"/>
+    <text x="274" y="19" fill="#DCEEFF" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">AZURE</text>
+    <rect x="330" width="106" height="29" rx="14.5" fill="#123C63" stroke="#3B82F6" stroke-opacity=".65"/>
+    <text x="383" y="19" fill="#DCEEFF" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">GENERATIVE AI</text>
+  </g>
+
+  <g transform="translate(785 43)">
+    <rect x="0" y="0" width="365" height="225" rx="18" fill="url(#panel)" stroke="#75B8F5" stroke-opacity=".32"/>
+    <text x="22" y="27" fill="#8FBCE9" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2">ENGINEERING TOOLKIT</text>
+    <circle cx="180" cy="122" r="64" fill="#123D67" stroke="#4EA8F5" stroke-width="1.5"/>
+    <circle cx="180" cy="122" r="49" fill="#0C2744" stroke="#60A5FA" stroke-opacity=".48" stroke-dasharray="4 6"/>
+    <text x="180" y="115" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="750" text-anchor="middle">AI</text>
+    <text x="180" y="137" fill="#9CCBFA" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1.6">APPLICATIONS</text>
+
+    <path d="M180 58V73M180 171V187M116 122H90M244 122H270M134 76L120 62M226 168L240 182M226 76L240 62M134 168L120 182" stroke="#5CA9EC" stroke-opacity=".72" stroke-width="1.5"/>
+    <circle cx="180" cy="58" r="4" fill="#67C5FF"/>
+    <circle cx="180" cy="187" r="4" fill="#67C5FF"/>
+    <circle cx="90" cy="122" r="4" fill="#67C5FF"/>
+    <circle cx="270" cy="122" r="4" fill="#67C5FF"/>
+    <circle cx="120" cy="62" r="3" fill="#67C5FF"/>
+    <circle cx="240" cy="62" r="3" fill="#67C5FF"/>
+    <circle cx="120" cy="182" r="3" fill="#67C5FF"/>
+    <circle cx="240" cy="182" r="3" fill="#67C5FF"/>
+
+    <g transform="translate(22 52)">
+      <rect width="58" height="31" rx="8" fill="#102F50" stroke="#4F93CF" stroke-opacity=".5"/>
+      <text x="29" y="20" fill="#CDE5FF" text-anchor="middle" font-family="Consolas,monospace" font-size="12" font-weight="700">&lt;/&gt;</text>
+    </g>
+    <g transform="translate(285 52)">
+      <rect width="58" height="31" rx="8" fill="#102F50" stroke="#4F93CF" stroke-opacity=".5"/>
+      <text x="29" y="20" fill="#CDE5FF" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700">API</text>
+    </g>
+    <g transform="translate(22 170)">
+      <rect width="58" height="31" rx="8" fill="#102F50" stroke="#4F93CF" stroke-opacity=".5"/>
+      <text x="29" y="20" fill="#CDE5FF" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="700">DATA</text>
+    </g>
+    <g transform="translate(285 170)">
+      <rect width="58" height="31" rx="8" fill="#102F50" stroke="#4F93CF" stroke-opacity=".5"/>
+      <text x="29" y="20" fill="#CDE5FF" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="700">CLOUD</text>
+    </g>
+  </g>
+
+  <path d="M785 286H1150" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <circle cx="1150" cy="286" r="3" fill="#7DD3FC"/>
+</svg>
