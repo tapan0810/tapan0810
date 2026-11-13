@@ -7,13 +7,12 @@
 <a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://myportfoliotapan.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-EXPLORE-1D4ED8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
 <a href="mailto:arceus0810@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT-0F4C81?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://leetcode.com/u/tapan-ray/"><img src="https://img.shields.io/badge/LEETCODE-500%2B%20SOLVED-2563EB?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
+<a href="https://leetcode.com/u/tapan-ray/"><img src="https://img.shields.io/badge/LEETCODE-PROFILE-1D4ED8?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode profile"/></a>
 
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=tapan0810&label=PROFILE%20VIEWS&color=1D4ED8&style=flat-square" alt="Profile views"/>
-<img src="https://img.shields.io/badge/CODECHEF-3%20STAR-1E40AF?style=flat-square&logo=codechef&logoColor=white" alt="CodeChef 3 Star"/>
-<img src="https://img.shields.io/badge/PROJECTS-50%2B-0F4C81?style=flat-square&logo=github&logoColor=white" alt="50 plus projects"/>
+<img src="https://img.shields.io/badge/LEETCODE-KNIGHT-1E40AF?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode Knight"/>
 
 </div>
 
@@ -22,8 +21,6 @@
   <strong>Cloud-Ready Systems</strong> &nbsp; · &nbsp;
   <strong>AI-Enabled Applications</strong>
 </p>
-
----
 
 ## 👨‍💻 About Me
 
@@ -55,13 +52,11 @@ I'm a **.NET Full-Stack Engineer** focused on building maintainable enterprise a
 | Cloud | Microsoft Azure |
 | AI | Generative AI / Agentic AI |
 | Problem solving | LeetCode Knight |
-| Practice | 500+ problems · CodeChef 3-Star |
+| Competitive coding | CodeChef 3-Star |
 
 </td>
 </tr>
 </table>
-
----
 
 ## 🧭 Engineering Capabilities
 
@@ -125,8 +120,6 @@ I'm a **.NET Full-Stack Engineer** focused on building maintainable enterprise a
 </tr>
 </table>
 
----
-
 ## 🛠️ Technology Stack
 
 <img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
@@ -151,8 +144,6 @@ I'm a **.NET Full-Stack Engineer** focused on building maintainable enterprise a
   <code>ASP.NET Core</code> · <code>Web API</code> · <code>EF Core</code> · <code>ADO.NET</code> · <code>Dapper</code> · <code>LINQ</code> · <code>RxJS</code> · <code>Azure DevOps</code> · <code>GitHub Actions</code> · <code>SonarQube</code>
 </p>
 
----
-
 ## 💼 Professional Experience
 
 <img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
@@ -163,7 +154,7 @@ I'm a **.NET Full-Stack Engineer** focused on building maintainable enterprise a
 Joined EY as an Advanced Analyst. Focused on contributing to enterprise delivery, collaborating with teams, and continuing to grow as a technology professional.
 
 ### LTIMindtree — Software Engineer
-**May 2025 – November 2026 · Bengaluru, India**
+**April 2025 – November 2026 · Bengaluru, India**
 
 Contributed to enterprise application development and application maintenance across backend engineering, API development, database access, cloud integration, and production support.
 
@@ -194,15 +185,13 @@ Worked on the Customer Insights platform with a focus on frontend engineering.
 <sub><strong>Technologies:</strong> React.js · JavaScript · HTML5 · CSS3 · REST APIs · Git · SonarQube</sub>
 
 ### Celebal Technologies — React Developer Intern
-**June 2023 – August 2023**
+**April 2023 – June 2023**
 
 - Built reusable React components and interactive interfaces.
 - Worked with React Hooks, props, and component state.
 - Integrated REST APIs into frontend workflows.
 
 <sub><strong>Technologies:</strong> React.js · JavaScript · HTML5 · CSS3 · REST APIs · Git</sub>
-
----
 
 ## 🚀 Selected Projects
 
@@ -223,9 +212,9 @@ An enterprise-oriented frontend project focused on application structure, reusab
 
 ### [Student Full-Stack API](https://github.com/tapan0810/DotNet_Angular_App_1_StudentAPI)
 
-**ASP.NET Core · EF Core · Angular · SQL Server**
+**ASP.NET Core 9 · EF Core · Angular 20 · SQL Server**
 
-A full-stack student management application combining a .NET API with an Angular frontend.
+A student management system with RESTful CRUD APIs and a responsive Angular frontend.
 
 </td>
 </tr>
@@ -234,9 +223,11 @@ A full-stack student management application combining a .NET API with an Angular
 
 ### [GitHub Analytics Pro](https://github.com/tapan0810/github-analytics-pro)
 
-**React · TypeScript · Analytics UI**
+**HTML · CSS · JavaScript · GitHub REST API**
 
-A repository analytics project focused on GitHub insights and developer activity presentation.
+A GitHub analytics dashboard featuring profile insights, repository health scoring, language analytics, filtering, and dark/light mode.
+
+[Live demo](https://github-analytic-pro.netlify.app/)
 
 </td>
 <td width="50%" valign="top">
@@ -245,7 +236,7 @@ A repository analytics project focused on GitHub insights and developer activity
 
 **AI-oriented application**
 
-A resume analysis platform exploring locally hosted model integration and resume evaluation workflows.
+A resume analysis project focused on applying AI to practical resume-review workflows.
 
 </td>
 </tr>
@@ -256,8 +247,6 @@ A resume analysis platform exploring locally hosted model integration and resume
 <a href="https://github.com/tapan0810?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE%20ALL%20REPOSITORIES-1D4ED8?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories"/></a>
 
 </div>
-
----
 
 ## 🏅 Certifications & Achievements
 
@@ -288,8 +277,6 @@ A resume analysis platform exploring locally hosted model integration and resume
 </tr>
 </table>
 
----
-
 ## 📚 Current Learning Roadmap
 
 <img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/section-divider.svg" alt=""/>
@@ -302,8 +289,6 @@ A resume analysis platform exploring locally hosted model integration and resume
 | Distributed systems | Messaging, caching, resilience, partitioning, sharding |
 | AI engineering | LLM integration, RAG, evaluation, agentic workflows |
 | System design | Scalability, reliability, observability, trade-offs |
-
----
 
 ## 📈 GitHub & Coding Activity
 
@@ -342,8 +327,6 @@ A resume analysis platform exploring locally hosted model integration and resume
 </picture>
 
 </div>
-
----
 
 ## 🤝 Let's Connect
 
