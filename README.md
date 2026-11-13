@@ -336,11 +336,11 @@ flowchart LR
 
 <br/><br/>
 
-<img width="100%" src="./assets/leetcode.svg" alt="LeetCode solved problems, skills, and recent submissions for tapan-ray"/>
+<img width="400" src="./assets/leetcode.svg" alt="LeetCode solved problems by difficulty for tapan-ray"/>
 
 </div>
 
-Live LeetCode statistics are generated independently from the public profile **tapan-ray**. The LeetCode Metrics plugin does not require a separate LeetCode API token.
+Compact live LeetCode solved counts by difficulty, generated from the public profile **tapan-ray**.
 
 [View my LeetCode profile](https://leetcode.com/u/tapan-ray/)
 
@@ -350,7 +350,7 @@ Live LeetCode statistics are generated independently from the public profile **t
 
 <div align="center">
 
-<img width="100%" src="./assets/metrics.svg" alt="GitHub activity, contribution calendar, languages, habits, and repository metrics"/>
+<img width="85%" src="./assets/metrics.svg" alt="Compact GitHub activity, contribution calendar, languages, and coding habits"/>
 
 </div>
 
