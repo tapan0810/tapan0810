@@ -42,6 +42,5 @@ jobs:
           plugin_leetcode: yes
           plugin_leetcode_user: tapan-ray
           plugin_leetcode_sections: solved, skills, recent
-          plugin_leetcode_limit_skills: 8
           plugin_leetcode_limit_recent: 5
           config_order: base.header, base.activity, isocalendar, languages, habits, achievements, leetcode, repositories
