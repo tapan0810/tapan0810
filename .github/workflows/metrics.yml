@@ -39,8 +39,4 @@ jobs:
           plugin_achievements_display: compact
           plugin_repositories: yes
           plugin_repositories_featured: tapan0810/FlowOps, tapan0810/DotNet_Angular_App_1_StudentAPI, tapan0810/github-analytics-pro, tapan0810/ResumeIQ-AI
-          plugin_leetcode: yes
-          plugin_leetcode_user: tapan-ray
-          plugin_leetcode_sections: solved, skills, recent
-          plugin_leetcode_limit_recent: 5
-          config_order: base.header, base.activity, isocalendar, languages, habits, achievements, leetcode, repositories
+          config_order: base.header, base.activity, isocalendar, languages, habits, achievements, repositories
