@@ -209,17 +209,13 @@ AI-oriented resume application.
 
 <div align="center">
 
-<img width="49%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-stats.svg" alt="GitHub statistics"/>
-<img width="49%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/top-langs.svg" alt="Most used programming languages"/>
-
-<br/><br/>
-
-<img width="49%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/streak-stats.svg" alt="GitHub contribution streak"/>
-<img width="49%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/activity-graph.svg" alt="GitHub contribution activity"/>
+<img width="96%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/profile-analytics.svg" alt="Live GitHub public repository analytics: repositories, stars, forks, followers and primary languages"/>
 
 </div>
 
-<p align="center"><sub>Analytics cards are stored in this repository and refreshed by GitHub Actions. Values can lag until the scheduled workflow completes.</sub></p>
+<p align="center"><sub>Generated daily from GitHub's public REST API. Language distribution is counted by repository primary language, not by source-code bytes.</sub></p>
+
+---
 
 ## 🐍 Contribution Activity
 
