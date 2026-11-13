@@ -251,54 +251,6 @@ AI-oriented application project.
 
 ---
 
-## 🏗️ Architecture & Engineering Notes
-
-I use architecture diagrams and implementation notes to document how application components interact. The diagrams below are conceptual learning/reference architectures, not claims about a specific employer's internal implementation.
-
-### .NET Web API — Layered Request Flow
-
-~~~mermaid
-flowchart TD
-    A[Client / Angular UI] --> B[ASP.NET Core API]
-    B --> C[Middleware / Authentication / Validation]
-    C --> D[Controller / Endpoint]
-    D --> E[Application Service]
-    E --> F[Domain Rules]
-    E --> G[Infrastructure / Repository]
-    G --> H[(SQL Server)]
-    E --> I[DTO / API Response]
-    I --> B
-    B --> A
-~~~
-
-### RAG — AI Application Pattern
-
-~~~mermaid
-flowchart TD
-    A[User Question] --> B[Application API]
-    B --> C[Query Processing]
-    C --> D[Embedding / Retrieval]
-    D --> E[(Vector Store)]
-    E --> F[Relevant Context]
-    F --> G[LLM]
-    G --> H[Grounded Response]
-    H --> B
-    B --> A
-~~~
-
-### Event-Driven Processing — Conceptual Pattern
-
-~~~mermaid
-flowchart LR
-    A[API / Event Producer] --> B[Message Broker]
-    B --> C[Background Worker]
-    C --> D[Business Processing]
-    D --> E[(Database)]
-    D --> F[Logs / Monitoring]
-~~~
-
----
-
 ## 🏅 Certifications & Achievements
 
 - **Microsoft Certified: Azure Fundamentals (AZ-900)**
@@ -336,7 +288,7 @@ flowchart LR
 
 <br/><br/>
 
-<img width="400" src="./assets/leetcode.svg" alt="LeetCode solved problems by difficulty for tapan-ray"/>
+<img width="340" src="./assets/leetcode.svg" alt="Compact LeetCode solved counts by difficulty for tapan-ray"/>
 
 </div>
 
@@ -386,7 +338,7 @@ The GitHub habits plugin reflects public GitHub contribution patterns and commit
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg"/>
-  <img alt="Animated GitHub contribution snake" src="./assets/github-snake.svg" width="100%"/>
+  <img alt="Animated GitHub contribution snake" src="./assets/github-snake.svg" width="72%"/>
 </picture>
 
 </div>
