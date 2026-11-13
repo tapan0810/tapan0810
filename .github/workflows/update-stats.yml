@@ -5,77 +5,76 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   update-stats:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Create assets folder
         run: mkdir -p assets
 
       - name: Download cards
         run: |
+          set -euo pipefail
 
           download() {
-
-            NAME=$1
-            URL=$2
+            NAME="$1"
+            URL="$2"
+            TMP="$(mktemp)"
 
             echo "Downloading $NAME..."
 
-            TMP=$(mktemp)
-
-            if curl \
-              --location \
-              --retry 5 \
-              --retry-delay 5 \
-              --retry-all-errors \
-              --fail \
-              -A "Mozilla/5.0" \
-              "$URL" \
-              -o "$TMP"
-            then
-
+            if curl --location --retry 5 --retry-delay 5 --retry-all-errors --fail -A "Mozilla/5.0" "$URL" -o "$TMP"; then
               if grep -qi "<svg" "$TMP"; then
                 mv "$TMP" "assets/$NAME"
-                echo "✅ Updated $NAME"
+                echo "Updated $NAME"
               else
-                echo "⚠ Invalid SVG for $NAME"
+                echo "Invalid SVG for $NAME; preserving the previous asset."
               fi
-
             else
-              echo "⚠ Failed downloading $NAME"
+              echo "Download failed for $NAME; preserving the previous asset."
             fi
 
             rm -f "$TMP"
-
           }
 
           download github-stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
-
           download top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true"
-
           download streak-stats.svg "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true"
-
-          download trophies.svg "https://github-profile-trophy.vercel.app/?username=${{ github.repository_owner }}&theme=tokyonight&no-frame=true&row=1&column=6"
-
           download activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=tokyo-night&hide_border=true&area=true"
 
-      - name: Commit changes
+      - name: Commit and push updated assets safely
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add assets
+          git add assets/github-stats.svg assets/top-langs.svg assets/streak-stats.svg assets/activity-graph.svg
 
           if git diff --cached --quiet; then
-            echo "No changes"
-          else
-            git commit -m "Update profile stats"
-            git push
+            echo "No profile stats changes."
+            exit 0
           fi
+
+          git commit -m "chore: refresh profile statistics [skip ci]"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed; retrying after rebasing."
+            sleep 3
+          done
+
+          echo "Unable to push profile stats after three attempts."
+          exit 1
