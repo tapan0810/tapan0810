@@ -8,13 +8,12 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/snake.yml"
-      - "README.md"
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-assets-${{ github.ref }}
+  group: contribution-snake-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
