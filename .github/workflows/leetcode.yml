@@ -8,13 +8,12 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/leetcode.yml"
-      - "README.md"
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-assets-${{ github.ref }}
+  group: leetcode-profile-card-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
