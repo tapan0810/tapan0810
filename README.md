@@ -298,7 +298,7 @@ A resume analysis project focused on applying AI to practical resume-review work
 
 <div align="center">
 
-<img width="96%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/profile-analytics.svg" alt="GitHub public repositories, stars, forks, followers, and primary language distribution"/>
+<img width="90%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/profile-analytics.svg" alt="GitHub public repositories, stars, forks, followers, and primary language distribution"/>
 
 </div>
 
