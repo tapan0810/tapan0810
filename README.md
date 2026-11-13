@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=225&color=0:0B1F36,45:153E68,100:2563EB&text=TAPAN%20RAY&fontSize=62&fontColor=FFFFFF&fontAlignY=36&desc=.NET%20FULL-STACK%20ENGINEER%20%7C%20AI%20APPLICATION%20DEVELOPER&descSize=17&descAlignY=58&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:071A2F,38:123B60,72:1D4F91,100:2563EB&text=TAPAN%20RAY&fontSize=62&fontColor=FFFFFF&fontAlignY=36&desc=.NET%20FULL-STACK%20ENGINEER%20%7C%20AI%20APPLICATION%20DEVELOPER&descSize=17&descAlignY=58&animation=fadeIn"/>
 
 <a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://myportfoliotapan.netlify.app"><img src="https://img.shields.io/badge/Portfolio-Explore-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=900&color=75B8FF&center=true&vCenter=true&width=920&lines=Building+Full-Stack+Applications+with+.NET+%26+Angular;Engineering+Reliable+APIs+and+Cloud-Ready+Systems;Exploring+Generative+AI%2C+LLMs+%26+Agentic+Workflows;Turning+Engineering+Ideas+into+Working+Software"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2600&pause=900&color=75B8FF&center=true&vCenter=true&width=920&lines=Building+Full-Stack+Applications+with+.NET+%26+Angular;Engineering+Reliable+APIs+and+Cloud-Ready+Systems;Exploring+Generative+AI%2C+LLMs+%26+Agentic+Workflows;Turning+Engineering+Ideas+into+Working+Software" alt="Animated engineering focus"/>
 
 <br/>
 
@@ -24,19 +24,23 @@
 
 ## 👋 About Me
 
-I'm a **.NET Full-Stack Engineer and AI application development enthusiast** focused on building maintainable enterprise software and exploring practical ways to integrate intelligent capabilities into applications.
+I'm a **.NET Full-Stack Engineer focused on enterprise application development and AI-enabled software**. I enjoy building reliable applications across the API, data, frontend, and cloud layers, while exploring practical ways to integrate Generative AI and LLM-powered capabilities.
 
-My core engineering stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript, and Microsoft SQL Server**. I also work with cloud and DevOps tooling, and continuously explore Generative AI, LLMs, RAG, and agentic application patterns.
+My core stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript, SQL Server, and Microsoft Azure**. I also enjoy problem-solving, system design, data engineering concepts, and building projects that turn engineering ideas into working software.
 
-- Build full-stack applications using **C#, ASP.NET Core, Angular, and TypeScript**.
-- Design and maintain REST APIs, service layers, validation, and authentication workflows.
+- Build full-stack applications with **C#, ASP.NET Core, Angular, and TypeScript**.
+- Design REST APIs, modular services, validation, and authentication workflows.
 - Work with **SQL Server, EF Core, ADO.NET, LINQ, and query optimization**.
-- Develop and explore cloud solutions using **Microsoft Azure, Docker, and CI/CD**.
+- Develop cloud-ready solutions using **Microsoft Azure, Docker, and CI/CD**.
 - Explore **Generative AI, LLMs, RAG, Agentic AI, MCP, and Semantic Kernel**.
 - Interested in **ETL/ELT, data pipelines, distributed systems, and system design**.
-- **LeetCode Knight · 500+ problems solved · CodeChef 3-Star · 50+ development projects**.
+- **LeetCode Knight · 500+ problems solved · CodeChef 3-Star · 50+ projects**.
 
-> **My engineering focus:** Full-stack product development · Cloud-ready systems · AI-enabled application patterns.
+<div align="center">
+
+FULL-STACK ENGINEERING &nbsp; · &nbsp; CLOUD &nbsp; · &nbsp; AI APPLICATIONS &nbsp; · &nbsp; PROBLEM SOLVING
+
+</div>
 
 ---
 
@@ -55,7 +59,7 @@ My core engineering stack includes **C#, .NET, ASP.NET Core, Angular, TypeScript
 - ADO.NET, Dapper, and LINQ
 - SQL Server and T-SQL
 - Clean Architecture and SOLID
-- JWT authentication and authorization
+- Authentication and authorization
 - REST API design and integration
 
 </td>
@@ -153,7 +157,7 @@ SQL Server · T-SQL · Stored Procedures · Indexing · Query Optimization
 **November 2026 – Present**
 
 - Joined EY as an Advanced Analyst.
-- Continuing to build experience in enterprise delivery, collaboration, and technology-driven business solutions.
+- Continuing to grow across enterprise delivery, collaboration, and technology-driven business solutions.
 
 ### LTM (LTIMindtree) — Software Engineer
 **May 2025 – November 2026 · Bengaluru, India**
@@ -247,7 +251,11 @@ AI-oriented application project.
 </tr>
 </table>
 
-**More repositories:** [Explore all my GitHub projects](https://github.com/tapan0810?tab=repositories).
+<div align="center">
+
+<a href="https://github.com/tapan0810?tab=repositories"><img src="https://img.shields.io/badge/Explore%20All%20Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories"/></a>
+
+</div>
 
 ---
 
@@ -282,52 +290,33 @@ AI-oriented application project.
 
 <div align="center">
 
-<a href="https://leetcode.com/u/tapan-ray/">
-  <img src="https://img.shields.io/badge/LeetCode-tapan--ray-F7B500?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile"/>
-</a>
+<a href="https://leetcode.com/u/tapan-ray/"><img src="https://img.shields.io/badge/LeetCode-tapan--ray-F7B500?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode profile"/></a>
 
 <br/><br/>
 
-<img width="340" src="./assets/leetcode.svg" alt="Compact LeetCode solved counts by difficulty for tapan-ray"/>
+<img width="340" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/leetcode.svg" alt="Compact LeetCode solved counts by difficulty for tapan-ray"/>
 
 </div>
-
-Compact live LeetCode solved counts by difficulty, generated from the public profile **tapan-ray**.
 
 [View my LeetCode profile](https://leetcode.com/u/tapan-ray/)
 
 ---
 
-## 📊 GitHub Metrics
+## 📊 GitHub Analytics
 
 <div align="center">
 
-<img width="85%" src="./assets/metrics.svg" alt="Compact GitHub activity, contribution calendar, languages, and coding habits"/>
-
-</div>
-
-The GitHub habits plugin reflects public GitHub contribution patterns and commit activity. It does not measure editor time or time spent coding in an IDE.
-
-[View GitHub activity](https://github.com/tapan0810)
-
-<details>
-<summary><strong>Additional GitHub statistics</strong></summary>
-
-<div align="center">
-
-<img width="49%" src="./assets/github-stats.svg" alt="GitHub statistics"/>
-<img width="49%" src="./assets/top-langs.svg" alt="Most used programming languages"/>
+<img width="49%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-stats.svg" alt="GitHub statistics: stars, commits, pull requests and rank"/>
+<img width="49%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/top-langs.svg" alt="Most used programming languages"/>
 
 <br/><br/>
 
-<img width="85%" src="./assets/streak-stats.svg" alt="GitHub contribution streak"/>
-
-<br/><br/>
-
-<img width="95%" src="./assets/activity-graph.svg" alt="GitHub contribution activity"/>
+<img width="49%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/streak-stats.svg" alt="GitHub contribution streak"/>
+<img width="49%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/activity-graph.svg" alt="GitHub contribution activity graph"/>
 
 </div>
-</details>
+
+<p align="center"><sub>Live SVG cards are refreshed by the repository's GitHub Actions workflow. Language and activity charts reflect GitHub-visible repository data.</sub></p>
 
 ---
 
@@ -336,9 +325,9 @@ The GitHub habits plugin reflects public GitHub contribution patterns and commit
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg"/>
-  <img alt="Animated GitHub contribution snake" src="./assets/github-snake.svg" width="72%"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake.svg"/>
+  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/github-snake.svg" width="78%"/>
 </picture>
 
 </div>
@@ -358,6 +347,6 @@ The GitHub habits plugin reflects public GitHub contribution patterns and commit
 
 **Building full-stack products · Exploring intelligent systems · Engineering practical solutions**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=105&color=0:0B1F36,45:153E68,100:2563EB&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=105&color=0:071A2F,38:123B60,72:1D4F91,100:2563EB&section=footer"/>
 
 </div>
