@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:071A2F,35:123B60,70:1D4F91,100:2563EB&text=TAPAN%20RAY&fontSize=64&fontColor=FFFFFF&fontAlignY=36&desc=.NET%20FULL-STACK%20ENGINEER%20%7C%20CLOUD%20%7C%20AI%20APPLICATIONS&descSize=16&descAlignY=59&animation=fadeIn" alt="Tapan Ray — .NET Full-Stack Engineer"/>
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/hero-banner.svg" alt="Tapan Ray — .NET Full-Stack Engineer | Cloud | AI Applications"/> alt="Tapan Ray — .NET Full-Stack Engineer"/>
 
 <a href="https://www.linkedin.com/in/tapan-ray-4941a0383/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 <a href="https://myportfoliotapan.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-Explore-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
