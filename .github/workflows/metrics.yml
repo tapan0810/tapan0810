@@ -8,13 +8,12 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/metrics.yml"
-      - "README.md"
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-assets-${{ github.ref }}
+  group: github-metrics-dashboard-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
