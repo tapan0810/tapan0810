@@ -9,6 +9,10 @@ permissions:
   contents: write
 
 concurrency:
+  group: profile-stat-cards-${{ github.ref }}
+  cancel-in-progress: false
+
+concurrency:
   group: profile-assets-${{ github.ref }}
   cancel-in-progress: false
 
