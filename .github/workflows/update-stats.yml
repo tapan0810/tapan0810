@@ -4,16 +4,16 @@ on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-stats.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-stat-cards-${{ github.ref }}
-  cancel-in-progress: false
-
-concurrency:
-  group: profile-assets-${{ github.ref }}
+  group: profile-stats-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -21,64 +21,69 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Create assets folder
         run: mkdir -p assets
 
-      - name: Download cards
+      - name: Download profile SVG cards
+        env:
+          OWNER: ${{ github.repository_owner }}
         run: |
           set -euo pipefail
 
           download() {
-            NAME="$1"
-            URL="$2"
-            TMP="$(mktemp)"
+            local name="$1"
+            local url="$2"
+            local tmp
+            tmp="$(mktemp)"
 
-            echo "Downloading $NAME..."
+            echo "Downloading $name"
 
-            if curl --location --retry 5 --retry-delay 5 --retry-all-errors --fail -A "Mozilla/5.0" "$URL" -o "$TMP"; then
-              if grep -qi "<svg" "$TMP"; then
-                mv "$TMP" "assets/$NAME"
-                echo "Updated $NAME"
+            if curl --location --retry 4 --retry-delay 3 --retry-all-errors --fail --silent --show-error -A "Mozilla/5.0" "$url" -o "$tmp"; then
+              if grep -qi "<svg" "$tmp" && ! grep -qi "DEPLOYMENT_DISABLED\|Payment required" "$tmp"; then
+                mv "$tmp" "assets/$name"
+                echo "Updated $name"
               else
-                echo "Invalid SVG for $NAME; preserving the previous asset."
+                echo "The response for $name was not a valid SVG; keeping the last known good asset."
+                rm -f "$tmp"
               fi
             else
-              echo "Download failed for $NAME; preserving the previous asset."
+              echo "Could not refresh $name; keeping the last known good asset."
+              rm -f "$tmp"
             fi
-
-            rm -f "$TMP"
           }
 
-          download github-stats.svg "https://github-readme-stats.vercel.app/api?username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
-          download top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true"
-          download streak-stats.svg "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true"
-          download activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=${{ github.repository_owner }}&theme=tokyo-night&hide_border=true&area=true"
+          download github-stats.svg "https://github-readme-stats.vercel.app/api?username=$OWNER&show_icons=true&theme=tokyonight&hide_border=true"
+          download top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=$OWNER&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"
+          download streak-stats.svg "https://streak-stats.demolab.com/?user=$OWNER&theme=tokyonight&hide_border=true"
+          download activity-graph.svg "https://github-readme-activity-graph.vercel.app/graph?username=$OWNER&theme=tokyo-night&hide_border=true&area=true"
 
-      - name: Commit and push updated assets safely
+      - name: Commit and push refreshed SVG cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/github-stats.svg assets/top-langs.svg assets/streak-stats.svg assets/activity-graph.svg
 
           if git diff --cached --quiet; then
-            echo "No profile stats changes."
+            echo "All profile cards are already up to date."
             exit 0
           fi
 
-          git commit -m "chore: refresh profile statistics [skip ci]"
+          git commit -m "chore: refresh profile analytics cards [skip ci]"
 
           for attempt in 1 2 3; do
             git pull --rebase origin main
             if git push origin HEAD:main; then
+              echo "Profile analytics cards pushed successfully."
               exit 0
             fi
-            echo "Push attempt $attempt failed; retrying after rebasing."
+            echo "Push attempt $attempt failed; retrying."
             sleep 3
           done
 
-          echo "Unable to push profile stats after three attempts."
+          echo "Could not push profile cards after three attempts."
           exit 1
