@@ -5,10 +5,10 @@ const outputPath = "assets/leetcode.svg";
 const source = fs.readFileSync(sourcePath, "utf8");
 
 // lowlighter/metrics provides the source of truth; this script only redesigns its presentation.
-const blocks = [...source.matchAll(/<div class="category column">([\\s\\S]*?)<\\/div>/g)];
+const blocks = [...source.matchAll(/<div class="category column">([\s\S]*?)<\/div>/g)];
 const stats = blocks.map(([_, block]) => {
   const type = block.match(/class="gauge (all|easy|medium|hard)"/)?.[1];
-  const values = [...block.matchAll(/<text[^>]*>\\/?([\\d,]+)<\\/text>/g)]
+  const values = [...block.matchAll(/<text[^>]*>\/?([\d,]+)<\/text>/g)]
     .map((match) => Number(match[1].replaceAll(",", "")));
   if (!type || values.length < 2) {
     throw new Error("Could not parse a LeetCode category from the source metrics SVG.");
