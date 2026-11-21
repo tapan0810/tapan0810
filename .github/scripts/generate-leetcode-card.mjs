@@ -72,4 +72,4 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="326" v
 </svg>`;
 
 fs.writeFileSync(outputPath, svg);
-console.log(`Generated ${outputPath} from ${sourcePath}: ${totalSolved} solved.`);
+console.log(`Generated ${outputPath} from ${sourcePath}: ${totalSolved} solved (custom profile dashboard).`);
