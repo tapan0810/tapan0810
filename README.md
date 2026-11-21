@@ -187,6 +187,20 @@ I work on projects across .NET APIs, Angular, system design, data analysis, and 
 - Generative AI, RAG, and agentic application patterns
 - System design and engineering trade-offs
 
+## 🧠 LeetCode Performance
+
+<div align="center">
+
+<a href="https://leetcode.com/u/tapan-ray/">
+  <img src="https://img.shields.io/badge/OPEN%20LEETCODE%20PROFILE-Visit%20Profile-1D4ED8?style=for-the-badge&logo=leetcode&logoColor=white" alt="Visit LeetCode profile"/>
+</a>
+
+<br/><br/>
+
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/leetcode.svg" alt="LeetCode problem-solving dashboard"/>
+
+</div>
+
 ## 📊 GitHub Activity
 
 <div align="center">
@@ -196,16 +210,6 @@ I work on projects across .NET APIs, Angular, system design, data analysis, and 
 <br/>
 
 <a href="https://github.com/tapan0810?tab=repositories">Explore my repositories</a>
-
-<br/><br/>
-
-<a href="https://leetcode.com/u/tapan-ray/">
-  <img src="https://img.shields.io/badge/LeetCode-View%20Profile-1D4ED8?style=for-the-badge&logo=leetcode&logoColor=white" alt="View LeetCode profile"/>
-</a>
-
-<br/><br/>
-
-<img width="58%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/leetcode.svg" alt="LeetCode progress"/>
 
 <br/><br/>
 
