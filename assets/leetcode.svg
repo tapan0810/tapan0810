@@ -1,62 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="98" class="">
-    <defs>
-        <style/>
-    </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}.categories,.category{display:flex;align-items:center}.categories{justify-content:space-around;margin-top:4px}.category{flex-direction:column;flex:1 1 0}.gauge{stroke-linecap:round;fill:none}.gauge-arc,.gauge-base{stroke:currentColor;stroke-width:10}.gauge-base{stroke-opacity:.2}.gauge-arc{fill:none;stroke-dashoffset:0;animation-delay:250ms;animation:animation-gauge 1s ease forwards}.gauge text,.gauge text.secondary{fill:currentColor;font-family:monospace;text-anchor:middle}.gauge text{font-size:40px;font-weight:600}.gauge text.secondary{font-size:25px}.gauge .title{font-size:18px;color:#777}.leetcode .easy.gauge .gauge-arc{color:#2cbb5d}.leetcode .medium.gauge .gauge-arc{color:#ffc01e}.leetcode .hard.gauge .gauge-arc{color:#ef4743}.leetcode .all.gauge .gauge-arc{color:#ffa116}.leetcode{align-items:flex-start}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
-    <style/>
-    <foreignObject x="0" y="0" width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
-            <section>
-                <h2 class="field">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                        <path fill-rule="evenodd" d="M2.5 3.5v3h3v-3h-3zM2 2a1 1 0 00-1 1v4a1 1 0 001 1h4a1 1 0 001-1V3a1 1 0 00-1-1H2zm4.655 8.595a.75.75 0 010 1.06L4.03 14.28a.75.75 0 01-1.06 0l-1.5-1.5a.75.75 0 111.06-1.06l.97.97 2.095-2.095a.75.75 0 011.06 0zM9.75 2.5a.75.75 0 000 1.5h5.5a.75.75 0 000-1.5h-5.5zm0 5a.75.75 0 000 1.5h5.5a.75.75 0 000-1.5h-5.5zm0 5a.75.75 0 000 1.5h5.5a.75.75 0 000-1.5h-5.5z"/>
-                    </svg>
-                    LeetCode statistics for tapan-ray
-                </h2>
-                <section>
-                    <div class="row fill-width leetcode scores">
-                        <section class="categories">
-                            <div class="category column">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge all">
-                                    <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="42.45419198055893 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">531</text>
-                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/4115</text>
-                                </svg>
-                                <span class="title">All</span>
-                            </div>
-                            <div class="category column">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge easy">
-                                    <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="85.9579918032787 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">255</text>
-                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/976</text>
-                                </svg>
-                                <span class="title">Easy</span>
-                            </div>
-                            <div class="category column">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge medium">
-                                    <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="34.30912476722533 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">224</text>
-                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/2148</text>
-                                </svg>
-                                <span class="title">Medium</span>
-                            </div>
-                            <div class="category column">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge hard">
-                                    <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="17.26337033299697 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">52</text>
-                                    <text x="60" y="80" dominant-baseline="central" class="secondary">/991</text>
-                                </svg>
-                                <span class="title">Hard</span>
-                            </div>
-                        </section>
-                    </div>
-                </section>
-            </section>
-        </div>
-        <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
-    </foreignObject>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="370" viewBox="0 0 1000 370" role="img" aria-labelledby="title desc">
+  <title id="title">Tapan Ray's LeetCode dashboard</title>
+  <desc id="desc">531 problems solved: 255 easy, 224 medium, and 52 hard.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1424"/>
+      <stop offset=".55" stop-color="#101E32"/>
+      <stop offset="1" stop-color="#0B192B"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#2563EB" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+      .eyebrow{font-size:10px;font-weight:750;letter-spacing:2.1px;fill:#7DD3FC}
+      .title{font-size:23px;font-weight:750;letter-spacing:-.5px;fill:#F8FAFC}
+      .subtitle{font-size:12px;fill:#8FA3BB}
+      .tiny{font-size:9px;font-weight:700;letter-spacing:1.1px;fill:#91A6C0}
+      .total{font-size:38px;font-weight:800;letter-spacing:-1.5px;fill:#F8FAFC}
+      .total-label{font-size:11px;font-weight:650;fill:#A9BCD2}
+      .ring-track{fill:none;stroke:#24364F;stroke-width:9}
+      .ring-value{fill:none;stroke:url(#blue);stroke-width:9;stroke-linecap:round;transform:rotate(-90deg);transform-origin:145px 225px}
+      .difficulty-letter{font-size:15px;font-weight:800}
+      .difficulty-name{font-size:13px;font-weight:700;fill:#E6EEF8}
+      .difficulty-sub{font-size:10px;fill:#8297B1}
+      .difficulty-count{font-size:17px;font-weight:750;fill:#F8FAFC}
+      .difficulty-percent{font-size:11px;font-weight:750;fill:#D5E2F0}
+      .footer{font-size:10px;fill:#8297B1}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="368" rx="23" fill="url(#panel)" stroke="#263B56"/>
+  <circle cx="930" cy="20" r="190" fill="url(#glow)"/>
+  <path d="M24 89H976" stroke="#22344D"/>
+  <rect x="27" y="25" width="4" height="39" rx="2" fill="url(#blue)"/>
+  <text x="43" y="37" class="eyebrow">LEETCODE / PERFORMANCE</text>
+  <text x="43" y="65" class="title">Problem Solving</text>
+  <text x="973" y="39" text-anchor="end" class="tiny">AUTO-UPDATED DAILY</text>
+  <g transform="translate(938 59)">
+    <circle r="3" fill="#34D399"/>
+    <circle r="7" fill="none" stroke="#34D399" stroke-opacity=".35"/>
+  </g>
+  <text x="973" y="66" text-anchor="end" class="subtitle">tapan-ray</text>
+
+  <rect x="28" y="104" width="280" height="244" rx="18" fill="#101E32" stroke="#2A405D"/>
+  <rect x="28" y="104" width="280" height="3" rx="1.5" fill="url(#blue)"/>
+  <text x="49" y="133" class="tiny">TOTAL QUESTIONS SOLVED</text>
+  <circle cx="145" cy="225" r="67" class="ring-track"/>
+  <circle cx="145" cy="225" r="67" class="ring-value" stroke-dasharray="54.3 421.0"/>
+  <circle cx="145" cy="225" r="53" fill="#0C192A" stroke="#1D3048"/>
+  <text x="145" y="222" text-anchor="middle" class="total">531</text>
+  <text x="145" y="244" text-anchor="middle" class="total-label">PROBLEMS</text>
+  <text x="145" y="319" text-anchor="middle" class="subtitle">12.9% of 4,115 total</text>
+
+  <text x="330" y="96" class="tiny">DIFFICULTY BREAKDOWN</text>
+  
+    <g transform="translate(0 112)">
+      <rect x="330" y="0" width="642" height="68" rx="15" fill="#101D30" stroke="#243650"/>
+      <rect x="346" y="15" width="38" height="38" rx="12" fill="#0C302B" stroke="#34D399" stroke-opacity=".32"/>
+      <text x="365" y="40" text-anchor="middle" class="difficulty-letter" fill="#34D399">E</text>
+      <text x="400" y="29" class="difficulty-name">Easy</text>
+      <text x="400" y="47" class="difficulty-sub">976 available</text>
+      <text x="550" y="29" class="difficulty-count">255</text>
+      <text x="550" y="47" class="difficulty-sub">solved</text>
+      <rect x="632" y="29" width="272" height="7" rx="3.5" fill="#26364D"/>
+      <rect x="632" y="29" width="71" height="7" rx="3.5" fill="#34D399"/>
+      <text x="944" y="35" text-anchor="end" class="difficulty-percent">26.1%</text>
+    </g>
+    <g transform="translate(0 190)">
+      <rect x="330" y="0" width="642" height="68" rx="15" fill="#101D30" stroke="#243650"/>
+      <rect x="346" y="15" width="38" height="38" rx="12" fill="#352B13" stroke="#FBBF24" stroke-opacity=".32"/>
+      <text x="365" y="40" text-anchor="middle" class="difficulty-letter" fill="#FBBF24">M</text>
+      <text x="400" y="29" class="difficulty-name">Medium</text>
+      <text x="400" y="47" class="difficulty-sub">2,148 available</text>
+      <text x="550" y="29" class="difficulty-count">224</text>
+      <text x="550" y="47" class="difficulty-sub">solved</text>
+      <rect x="632" y="29" width="272" height="7" rx="3.5" fill="#26364D"/>
+      <rect x="632" y="29" width="28" height="7" rx="3.5" fill="#FBBF24"/>
+      <text x="944" y="35" text-anchor="end" class="difficulty-percent">10.4%</text>
+    </g>
+    <g transform="translate(0 268)">
+      <rect x="330" y="0" width="642" height="68" rx="15" fill="#101D30" stroke="#243650"/>
+      <rect x="346" y="15" width="38" height="38" rx="12" fill="#351B29" stroke="#FB7185" stroke-opacity=".32"/>
+      <text x="365" y="40" text-anchor="middle" class="difficulty-letter" fill="#FB7185">H</text>
+      <text x="400" y="29" class="difficulty-name">Hard</text>
+      <text x="400" y="47" class="difficulty-sub">991 available</text>
+      <text x="550" y="29" class="difficulty-count">52</text>
+      <text x="550" y="47" class="difficulty-sub">solved</text>
+      <rect x="632" y="29" width="272" height="7" rx="3.5" fill="#26364D"/>
+      <rect x="632" y="29" width="14" height="7" rx="3.5" fill="#FB7185"/>
+      <text x="944" y="35" text-anchor="end" class="difficulty-percent">5.2%</text>
+    </g>
+
+  <path d="M28 359H972" stroke="#22344D"/>
+  <text x="30" y="365" class="footer">SOLVED MIX</text>
+  <text x="108" y="365" class="footer"><tspan fill="#34D399">EASY 48%</tspan><tspan fill="#52657D">  /  </tspan><tspan fill="#FBBF24">MEDIUM 42%</tspan><tspan fill="#52657D">  /  </tspan><tspan fill="#FB7185">HARD 10%</tspan></text>
+  <text x="970" y="365" text-anchor="end" class="footer">KEEP BUILDING. KEEP SOLVING.</text>
 </svg>
