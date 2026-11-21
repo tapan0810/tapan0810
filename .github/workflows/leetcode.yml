@@ -31,6 +31,7 @@ jobs:
           token: NOT_NEEDED
           user: tapan0810
           filename: assets/leetcode-source.svg
+          output_action: none
           template: classic
           base: ""
           config_timezone: Asia/Kolkata
