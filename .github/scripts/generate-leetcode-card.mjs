@@ -4,10 +4,10 @@ const sourcePath = "assets/leetcode-source.svg";
 const outputPath = "assets/leetcode.svg";
 const source = fs.readFileSync(sourcePath, "utf8");
 
-const blocks = [...source.matchAll(/<div class="category column">([\\s\\S]*?)<\\/div>/g)];
+const blocks = [...source.matchAll(/<div class="category column">([\s\S]*?)<\/div>/g)];
 const stats = blocks.map(([_, block]) => {
   const type = block.match(/class="gauge (all|easy|medium|hard)"/)?.[1];
-  const values = [...block.matchAll(/<text[^>]*>\\/?([\\d,]+)<\\/text>/g)].map((m) => Number(m[1].replaceAll(",", "")));
+  const values = [...block.matchAll(/<text[^>]*>\/?([\d,]+)<\/text>/g)].map((m) => Number(m[1].replaceAll(",", "")));
   if (!type || values.length < 2) throw new Error("Could not parse LeetCode category from metrics SVG.");
   return { type, solved: values[0], total: values[1] };
 });
