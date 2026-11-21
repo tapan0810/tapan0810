@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/hero-banner.svg" alt="Tapan Ray — Software Engineer"/>
+<img width="100%" src="https://raw.githubusercontent.com/tapan0810/tapan0810/main/assets/hero-banner-animated.svg" alt="Tapan Ray — animated software engineering banner"/>
 
 <br/>
 
